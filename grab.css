@@ -1,0 +1,293 @@
+.navbar{
+    position: fixed;
+    right: 0;
+    left: 0;
+}
+img{
+    position: absolute;
+    margin-left: 110px;
+    width: 110px;
+    height: 50px;
+    background-size: contains;
+}
+
+.menu{
+    font-size: 10px;
+}
+
+.nav-item{
+    position: absolute;
+    right:500px;
+}
+
+.pusBantuan{
+    position: absolute;
+    right: 380px;
+}
+
+#drop-down{
+    background: transparent;
+    border: none;
+    margin-right: 30px;
+    
+}
+
+#inputan{
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(181, 179, 179);
+}
+
+.icon-search{
+    right: 20px;
+    position: absolute;
+    width: 26px;
+    height: 26px;
+}
+
+.name{
+    position: absolute;
+    top: 500px;
+    left: 200px;
+}
+.name h1{
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+}
+
+.about{
+    position: relative;
+    left: 0;
+    right: 0;
+    top: -30px;
+    background-color: rgb(0, 74, 44);
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 100px;
+    padding-left: 50px;
+}
+
+.about a{
+    text-decoration: none;
+    color: white;
+}
+
+.download{
+    position: relative;
+    left: 0;
+    right: 0;
+    top: -30px;
+    background-color: rgb(0, 128, 74);
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 100px;
+    padding-left: 50px;
+}
+
+.download a{
+    text-decoration: none;
+    color: white;
+}
+
+.section1{
+    width: 90vw;
+    /* border: 1px solid black; */
+    margin: 50px 100px;
+}
+
+.box-content{
+    width: 420px;
+    height: 176px;
+    margin-bottom: 100px;
+}
+
+.section1 h3{
+    font-size: 2.25rem ;
+    line-height: 2.75rem;
+    font-weight: 600;
+}
+
+.box-menu{
+    margin-bottom: 100px;
+}
+
+.box-menu span{
+    padding: 10px 22px;
+    /* border: 1px solid black; */
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    color: rgb(105, 112, 120)
+}
+
+.box-menu span:first-child{
+    color: white;
+    /* border: 1px solid red; */
+    background-color: black;
+    border-radius: 35px;
+}
+
+.section2 {
+    width: 90vw;
+    /* border: 1px solid black; */
+    margin: 50px 100px;
+}
+
+.section2 h1{
+    margin-top: 30px;
+}
+
+.service-icon___1JsrU svg{
+    width: 72px;
+    height: 72px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+.service-text{
+    margin-top: 35px;
+    color: black;
+}
+
+.vertical-btn{
+    /* border: 1px solid black; */
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 28px;
+    color: rgb(56, 62, 67);
+    box-sizing: border-box;
+}
+
+.vertical-btn img{
+    margin-top: -10px;
+    margin-left: -28px;
+}
+
+.section3{
+    width: 90vw;
+    /* border: 1px solid black; */
+    margin: 50px 100px;
+    margin-bottom: 250px;
+}
+
+.section3 h3{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 44px;
+    margin-bottom: 20px;
+    color: rgb(36, 42, 46);
+    box-sizing: border-box;
+}
+
+.card-news{
+    /* border: 1px solid black; */
+    width: 276px;
+    height: 358px;
+    color: rgb(56, 62, 67) ;
+    font-size: 16px;
+}
+
+.card-news .news-image{
+    height: 50%;
+    /* border: 1px solid red; */
+
+}
+.news-image{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNPUq7m_FTPrucKrLTIKk7UdQuHz2XqSQo0A&usqp=CAU");
+}
+
+.news-title{
+    width: 276px;
+    height: 52px;
+    overflow: scroll;
+}
+
+.news-readmore{
+    color: rgb(0, 128, 74);
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    box-sizing: border-box;
+}
+
+.newsroom-more-outter{
+    /* border: 1px solid black; */
+    text-align: center;
+    margin: 60px 0;
+}
+
+.newsroom-more{
+    border: 1px solid black;
+    padding: 20px 35px;
+    color: rgb(56, 62, 67);
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.newsroom-more:hover{
+    color: rgb(0, 83, 57);
+    text-decoration: none;
+}
+
+
+footer{
+    height: 400px;
+    background-color: rgb(208, 209, 214);
+}
+
+.bagian1{
+    /* border: 1px solid red; */
+    font-weight: 600;
+    
+}
+
+.bagian1 img{
+    width: 78px;
+    height: 28px;
+    position: relative;
+    left: -40px;
+    top: 40px;
+}
+
+.slogan{
+    margin: 50px 0 20px 70px;
+    font-size: 18px;
+}
+
+.social-media{
+    margin: 0 0 20px 70px;
+    font-size: 16px;
+    padding: 20px 0;
+}
+
+.dropdown-social{
+    width: 180px;
+    height: 42px;
+    margin: 0 0 20px 70px;
+    border: 1px solid grey;
+    font-size: 18px;
+}
+
+.bagian2 .col-2 ul li{
+    list-style-type: none;
+    font-size: 14px;
+}
+
+.bagian2 .col-2 ul li a{
+    color: black;
+
+}
+
+.bagian2 .col-2 ul{
+    margin-left: -20px;
+    margin-top: 30px;
+}
+
+.col-heading{
+    margin-bottom: 20px;
+    font-size: 16px;
+}

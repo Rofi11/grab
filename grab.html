@@ -1,0 +1,1231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./grab.css">
+    <title>Grab</title>
+</head>
+<body>
+    <!-- bagian navigasi -->
+    <div class="fixed-top">
+        <div class="collapse" id="navbarToggleExternalContent">
+            <div class="bg-dark p-4">
+                <h5 class="text-white h4">Collapsed content</h5>
+                <span class="text-muted">Toggleable via the navbar brand.</span>
+            </div>
+    </div>
+    <nav class="navbar navbar-light bg-light">
+        <img src="./images/grab.png" alt="www.grab.com">
+        <button class="navbar-toggler ml-5" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"
+            aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            <div class="menu">Menu</div>
+        </button>
+        <div class="nav-item dropdown">
+            <div class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                Jadilah Mitra Kami
+            </div>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Pengemudi Car</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Pengemudi Bike</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Mitra GrabFood</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Mitra GrabMart</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Mitra GrabKios</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">GrabWheels</a>
+            </div>
+        </div>
+        <div class="pusBantuan">Pusat Bantuan</div>
+        <div>
+            <select name="Indonesia" id="drop-down">
+                <option value="English">English</option>
+                <option value="Indonesia">Indonesia</option>
+            </select>
+            <img class= "icon-search" src="./images/icons8-search-50.png" alt="">
+            <input type="text" id="inputan">
+        </div>
+    </nav>
+</div>
+
+<!-- bagian jumbotron -->
+<video id="hero-video" style="height: 100%; object-fit: cover ; width: 100%;" playsinline="" preload="" loop="" muted="" autoplay="">
+    <source src="https://assets.grab.com/wp-content/uploads/media/videos/hero_banner_singapore_q50_mobile.webm"
+        media="screen and (min-width:768px)" type="video/webm">
+    <source src="https://assets.grab.com/wp-content/uploads/media/videos/hero_banner_singapore_q50_mobile.mp4"
+        media="screen and (min-width:768px)">
+    <source src="https://assets.grab.com/wp-content/uploads/media/videos/hero_banner_sg_q50.webm" type="video/webm">
+    <source src="https://assets.grab.com/wp-content/uploads/media/videos/hero_banner_sg_q50.mp4">
+</video>
+<div class="name">
+    <h1>Grab. Making every</h1>
+    <h1>day better.</h1>
+</div>
+<div class="about" style="height:100px"><a href="#">Read About Us</a></div>
+<div class="download" style="height:100px"><a href="#">Download App</a></div>
+
+<!-- section 1 -->
+<div class="section1">
+    <div class="box-content">
+        <h3>From essential services to earning opportunities. we're an all-in-one paltform</h3>
+    </div>
+    <div class="box-menu">
+        <span>Consumer</span>
+        <span>Driver</span>
+        <span>Merchant</span>
+        <span>Enterprise</span>
+    </div>
+    <hr>
+</div>
+
+<!-- section 2 -->
+<div class="section2">
+    <div class="deliveries row d-flex justify-content-around">
+        <h1 class="col-5">Deliveries</h1>
+        <div class="grup col-5">
+            <a href="#">
+                <div class="service-content d-flex">
+                    <div class="service-icon">
+                        <a href="https://www.grab.com/id/food/?utm_campaign=gw_exp_home0_202110&amp;utm_source=grab.com&amp;utm_medium=referral&amp;utm_content=GrabFood_InfoTile"
+                            class="service-content___24aB5">
+                            <div class="service-icon___1JsrU"><svg xmlns="http://www.w3.org/2000/svg" width="115" height="100"
+                                    viewBox="0 0 115 100" fill="none">
+                                    <path
+                                        d="M57.5 100C85.1142 100 107.5 77.6142 107.5 50C107.5 22.3858 85.1142 0 57.5 0C29.8858 0 7.5 22.3858 7.5 50C7.5 77.6142 29.8858 100 57.5 100Z"
+                                        fill="#CCEFDC"></path>
+                                    <path
+                                        d="M57.4998 80.8927C82.8457 80.8927 103.393 79.8534 103.393 78.5713C103.393 77.2892 82.8457 76.2499 57.4998 76.2499C32.1539 76.2499 11.6069 77.2892 11.6069 78.5713C11.6069 79.8534 32.1539 80.8927 57.4998 80.8927Z"
+                                        fill="#99E0B9"></path>
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M82.5 76.4285H33.75C34.2857 69.6428 34.8214 63.0357 35.7143 56.9642C36.9643 49.1071 43.5714 43.2142 51.25 43.2142H65C72.8571 43.2142 79.4643 49.1071 80.5357 56.9642C81.7857 62.8571 82.1428 69.4642 82.5 76.4285Z"
+                                        fill="#FDF4D9"></path>
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M80.8926 56.9642C79.6426 49.1071 73.0355 43.2142 65.3569 43.2142H51.6069C48.3927 43.2142 45.3569 44.2857 42.8569 45.8928C44.4641 49.2857 47.6784 52.4999 53.7498 55.7142C64.1069 61.2499 74.8212 62.3214 81.4284 59.1071C81.0712 58.5714 80.8926 57.6785 80.8926 56.9642Z"
+                                        fill="#F9D468"></path>
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M28.0358 68.5714C26.7858 65.5356 30.0001 61.2499 35.3573 58.9285C40.7144 56.6071 45.893 57.3214 47.143 60.3571C48.393 63.3928 45.1787 67.6785 39.8216 69.9999C34.643 72.3214 29.2858 71.6071 28.0358 68.5714Z"
+                                        fill="#00B14F"></path>
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M32.4998 66.7857C31.6069 64.6428 33.7498 61.6071 37.3212 59.9999C40.8926 58.3928 44.464 59.1071 45.3569 61.2499C46.2498 63.3928 44.1069 66.4285 40.5355 68.0357C37.1426 69.4642 33.3926 68.9285 32.4998 66.7857Z"
+                                        fill="#CCEFDC"></path>
+                                    <path
+                                        d="M76.0714 73.0357C83.2708 73.0357 89.1071 70.5572 89.1071 67.4999C89.1071 64.4427 83.2708 61.9642 76.0714 61.9642C68.8719 61.9642 63.0356 64.4427 63.0356 67.4999C63.0356 70.5572 68.8719 73.0357 76.0714 73.0357Z"
+                                        fill="#F18275"></path>
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M8.92864 67.8572H58.5715V78.3929C58.5715 78.3929 30.1786 76.7858 8.75007 69.4643C8.39293 69.2858 8.21436 68.9286 8.21436 68.5715C8.21436 68.0358 8.5715 67.8572 8.92864 67.8572Z"
+                                        fill="#006A2F"></path>
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M107.322 67.8572H57.6787V78.3929C57.6787 78.3929 86.0716 76.7858 107.5 69.4643C107.857 69.2858 108.036 68.9286 108.036 68.5715C108.036 68.0358 107.679 67.8572 107.322 67.8572Z"
+                                        fill="#006A2F"></path>
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M79.4645 79.9999H36.7859C36.2502 79.9999 35.7145 79.6428 35.5359 79.1071L33.3931 75.3571H83.2145L81.0716 79.1071C80.5359 79.6428 80.0002 79.9999 79.4645 79.9999Z"
+                                        fill="#008E3F"></path>
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M86.2501 46.0714C83.393 54.4642 69.2858 57.1428 55.1787 51.9642C40.893 46.7857 41.0715 39.2857 41.0715 30.1785C40.893 15.5357 51.6073 15.8928 65.893 21.25C79.8215 26.4285 89.1073 37.6785 86.2501 46.0714Z"
+                                        fill="white"></path>
+                                    <path
+                                        d="M69.8472 37.9551C71.7801 33.3117 68.6233 27.5811 62.7962 25.1554C56.9691 22.7298 50.6784 24.5277 48.7455 29.1711C46.8126 33.8146 49.9694 39.5452 55.7965 41.9709C61.6235 44.3965 67.9143 42.5986 69.8472 37.9551Z"
+                                        fill="#FADF8E"></path>
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M57.1426 39.4641C51.2498 37.3213 47.6783 32.1427 49.1069 28.2141C50.5355 24.2856 56.4283 22.6784 62.3212 24.9998C68.214 27.1427 71.7855 32.3213 70.3569 36.2498C68.9283 40.357 63.0355 41.7856 57.1426 39.4641Z"
+                                        fill="#F39D56"></path>
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M59.8213 31.9643C56.607 30.7143 54.2856 28.3928 54.9999 26.6071C55.5356 24.8214 58.7499 24.4643 62.1427 25.7143C65.357 26.9643 67.6785 29.2857 66.9642 31.0714C66.2499 32.8571 63.2142 33.2143 59.8213 31.9643Z"
+                                        fill="#F7C942"></path>
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M29.4644 54.2857C26.6072 53.9286 25.0001 49.4643 25.7144 44.4643C26.4287 39.4643 29.2858 35.5357 31.9644 36.0714C34.8215 36.4286 36.4287 40.8929 35.7144 45.8929C35.1787 50.8929 32.3215 54.6429 29.4644 54.2857Z"
+                                        fill="#00B14F"></path>
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M30.1785 49.6427C28.2142 49.2856 26.9642 46.4285 27.4999 43.2142C27.8571 39.9999 29.8213 37.4999 31.7856 37.857C33.7499 38.2142 34.9999 41.0713 34.4642 44.2856C34.1071 47.4999 32.1428 49.9999 30.1785 49.6427Z"
+                                        fill="#CCEFDC"></path>
+                                </svg></div>
+                    </div>
+                    <div class="service-text">
+                        <h5>Makanan</h5>
+                        <p>Dapatkan semua makanan diantarkan ke depan pintu</p>
+                    </div>
+                </div>
+                <hr>
+            </a>
+        </div>
+    </div>
+    <div class="deliveries row d-flex justify-content-around">
+        <h1 class="col-5"></h1>
+        <div class="grup col-5">
+            <a href="#">
+                <div class="service-content d-flex">
+                    <div class="service-icon">
+                    <a href="https://www.grab.com/id/mart/?utm_campaign=gw_exp_home0_202110&amp;utm_source=grab.com&amp;utm_medium=referral&amp;utm_content=GrabMart_InfoTile"
+                        class="service-content___24aB5">
+                        <div class="service-icon___1JsrU"><svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56"
+                                fill="none">
+                                <path
+                                    d="M28 56C43.464 56 56 43.464 56 28C56 12.536 43.464 0 28 0C12.536 0 0 12.536 0 28C0 43.464 12.536 56 28 56Z"
+                                    fill="#CCEFDC"></path>
+                                <path
+                                    d="M28 46.9001C39.0457 46.9001 48 46.318 48 45.6C48 44.8821 39.0457 44.3 28 44.3C16.9543 44.3 8 44.8821 8 45.6C8 46.318 16.9543 46.9001 28 46.9001Z"
+                                    fill="#99E0B9"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M17.9 19.9V19.4C17.9 18.5 19.9 12.6 19.9 11.8V10.7H18.5V11.8C18.5 12.6 18.2 13.4 17.7 14L15.3 17C14.7 17.7 14.4 18.5 14.4 19.4V19.8H17.9V19.9Z"
+                                    fill="#F5A197"></path>
+                                <path d="M18 27.1H14.5V31H18V27.1Z" fill="#F5A197"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M28.2999 34.1L25.2 45.4H42.5999L45.5999 34.1H28.2999Z"
+                                    fill="#008E3F"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M27.9 35.3H45.3L45.6 34.1H28.2L27.9 35.3Z" fill="#006A2F">
+                                </path>
+                                <path
+                                    d="M39 43.5C38.9 43.5 38.8 43.5 38.7 43.5C38.2 43.3 37.9 42.8 38.1 42.3L39.9 37.1C40.1 36.6 40.6 36.3 41.1 36.5C41.6 36.7 41.9 37.2 41.7 37.7L39.9 42.9C39.8 43.2 39.4 43.5 39 43.5Z"
+                                    fill="#006A2F"></path>
+                                <path
+                                    d="M34.8 43.5C34.7 43.5 34.6 43.5 34.5 43.5C34 43.3 33.7 42.8 33.9 42.3L35.7 37.1C35.9 36.6 36.4 36.3 36.9 36.5C37.4 36.7 37.7 37.2 37.5 37.7L35.7 42.9C35.5 43.2 35.1 43.5 34.8 43.5Z"
+                                    fill="#006A2F"></path>
+                                <path
+                                    d="M30.7 38.9L29.6 42.2C29.4 42.7 29.7 43.2 30.2 43.4C30.3 43.4 30.4 43.4 30.5 43.4C30.9 43.4 31.3 43.1 31.4 42.8L33.2 37.6C33.3 37.4 33.2 37.3 33.2 37.1L30.7 38.9Z"
+                                    fill="#006A2F"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M10.5 34.1L13.5 45.4H25.2L28.3 34.1H10.5Z" fill="#006A2F">
+                                </path>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M27.9 35.3L28.2 34.1H10.5L10.9 35.3H27.9Z" fill="#4B4B4B">
+                                </path>
+                                <path d="M46.8 30.9H28.4V34.1H46.8V30.9Z" fill="#00B14F"></path>
+                                <path d="M46.8 30.9H28.4V31.2H46.8V30.9Z" fill="#4DC884"></path>
+                                <path d="M28.4 30.9H9.19995V34.1H28.4V30.9Z" fill="#008E3F"></path>
+                                <path
+                                    d="M35.9 32.2C36.4 31.8 37.0999 31.6 37.5999 32.1C37.6999 32.2 37.7999 32.3 37.7999 32.4C37.7999 32.2 37.6999 32.1 37.5999 31.9C37.1999 31.4 36.5 31.3 35.9 31.8L25 39.5H9.19995L8.69995 39.9H25.2L35.9 32.2Z"
+                                    fill="white"></path>
+                                <path
+                                    d="M37.5999 32C37.0999 31.6 36.4 31.7 35.9 32.1L25.2 39.8L25.9 42.2L37.5 34C37.6 33.9 37.6999 33.8 37.7999 33.8C38.1999 33.2 38.0999 32.5 37.5999 32Z"
+                                    fill="#99E0B9"></path>
+                                <path d="M25.2 39.9H8.69995L9.39995 42.3H25.6H25.9L25.2 39.9Z" fill="#33C172"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M26.7 19.9V19.5C26.7 18.6 26.4 17.8 25.8 17.1L23.4 14.1C22.9 13.5 22.6 12.7 22.6 11.9V10.8H19.9V11.9C19.9 12.7 17.9 18.6 17.9 19.5V20H26.7V19.9Z"
+                                    fill="white"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M22.6 10.8V8.99998C22.6 8.49998 22.2 8.09998 21.7 8.09998H19.3C18.8 8.09998 18.4 8.49998 18.4 8.99998V10.8H22.6Z"
+                                    fill="#EE6352"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M19.9 8.09998H19.4C18.9 8.09998 18.5 8.49998 18.5 8.99998V10.8H19.9V8.09998Z" fill="#BE4F42"></path>
+                                <path d="M26.7 19.9H14.5V27.1H26.7V19.9Z" fill="#EE6352"></path>
+                                <path d="M18 19.9H14.5V27.1H18V19.9Z" fill="#BE4F42"></path>
+                                <path d="M26.7 27.1H17.9V30.9H26.7V27.1Z" fill="white"></path>
+                                <path
+                                    d="M36.8 16.7C36.6 15.1 36.1 13.4 35.4 11.9L35.1 11.3C35 11 34.7 11 34.7 11.3L34.4 12C33.3 15.1 33 18.4 33.5 21.6C34.2 21.4 35 21.3 35.7 21.4C35.9 19.8 36.3 18.3 36.8 16.7Z"
+                                    fill="#008E3F"></path>
+                                <path d="M36.6 21.6L36.8 21.7L36.6 21.6Z" fill="#008E3F"></path>
+                                <path d="M38.5 22.1L38.9 22.2L38.5 22.1Z" fill="#00B14F"></path>
+                                <path
+                                    d="M44.8 14.4999L44.3 14.7999C42.8 15.8999 41.5 17.1999 40.4 18.6999C40.1 19.8999 39.8 21.1999 39.3 22.3999C39.2 22.3999 39.1 22.2999 38.9 22.2999C39.9 22.5999 40.8 23.1999 41.5 23.8999C43.3 21.3999 44.6 18.4999 45 15.4999L45.1 14.7999C45.2 14.4999 44.9 14.2999 44.8 14.4999Z"
+                                    fill="#00B14F"></path>
+                                <path
+                                    d="M40.2001 22.7999C40.3001 21.3999 40.4001 20 40.4001 18.7C40.1001 20 39.8 21.1999 39.3 22.4C39.6 22.4999 39.9001 22.5999 40.2001 22.7999Z"
+                                    fill="#008E3F"></path>
+                                <path
+                                    d="M35.7 21.4C35.9 20.1 36.1999 18.7 36.5999 17.4C35.8999 18.7 35.3 20 34.7 21.4C35 21.4 35.4 21.4 35.7 21.4Z"
+                                    fill="#006A2F"></path>
+                                <path
+                                    d="M36.5999 21.6001L38.9 22.2001C39 22.2001 39.0999 22.3001 39.2999 22.3001C40.6999 18.4001 41.3 14.3001 41 10.2001L40.9 9.30006C40.9 9.00006 40.6 8.90006 40.5 9.20006L40 9.90006C37.7 13.4001 36.3 17.3001 35.7 21.4001C36 21.5001 36.2999 21.5001 36.5999 21.6001Z"
+                                    fill="#00B14F"></path>
+                                <path
+                                    d="M42.3 30.9L42.8 29.3C43.7 26.3 41.9 23.1 38.9 22.3L36.6 21.7C33.6 20.8 30.4 22.6 29.6 25.6L28.1 31H42.3V30.9Z"
+                                    fill="#F7C942"></path>
+                                <path d="M32.2 30.9L35.6 29L33.7 25.5L37.1 23.6L36 21.5C33.1 21 30.3 22.7 29.5 25.6L28 30.9H32.2Z"
+                                    fill="#F38522"></path>
+                                <path d="M32.2 30.9L30.3 27.5L33.7 25.6L32 22.3C30.8 23.1 29.9 24.2 29.6 25.6L28 30.9H32.2Z" fill="#C7712D">
+                                </path>
+                                <path d="M39.4 22.4L39.9 22.6L39.4 22.4Z" fill="#F38522"></path>
+                                <path
+                                    d="M40.4 28.6C40.7 29.2 40.9 29.8 41 30.5C40.5 30.1 40.1 29.5 39.7 29C39.4 28.4 39.2 27.7 39.1 27.1C39.6 27.4 40.1 28 40.4 28.6Z"
+                                    fill="#F38522"></path>
+                                <path
+                                    d="M37.2 27.7C36.6 28 36.1 28.5 35.7 29C37.1 28.8 38.2999 28.1 39.0999 27C38.3999 27.1 37.8 27.3 37.2 27.7Z"
+                                    fill="#F38522"></path>
+                                <path d="M41 30.5C41.6 30.4 42.1 30.2 42.6 30L42.8 29.3L42.9 29.1L42.6 29.3C42 29.5 41.4 30 41 30.5Z"
+                                    fill="#F38522"></path>
+                                <path d="M37.8 25.5C37.5 24.9 37.3 24.3 37.1 23.6C38.1 24.5 38.8 25.7 39 27C38.6 26.6 38.2 26.1 37.8 25.5Z"
+                                    fill="#F38522"></path>
+                                <path
+                                    d="M42.4 25.1C41.1 25.3 39.9 26 39.1 27C39.8 26.9 40.4 26.7 41 26.4C41.5 26 42 25.6 42.4 25.1C42.4 25.2 42.4 25.1 42.4 25.1Z"
+                                    fill="#F38522"></path>
+                                <path
+                                    d="M39.7 22.5C39.4 22.4 39.2 22.3 38.9 22.2L38.7 22.2999C38.1 22.5999 37.6 23.1 37.2 23.6C37.9 23.5 38.4999 23.3 39.0999 23C39.2999 22.8 39.5 22.7 39.7 22.5Z"
+                                    fill="#F38522"></path>
+                                <path d="M41.4 30.9C41.3 30.8 41.1 30.6 41 30.5C41 30.6 41.1 30.8 41.1 30.9H41.4Z" fill="#F38522"></path>
+                                <path d="M40.6 30.9C40.7 30.8 40.9 30.6 41 30.5C40.5 30.6 40.1 30.7 39.6 30.9H40.6Z" fill="#F38522"></path>
+                                <path d="M36.3 30.9H37.1C37 30.8 37 30.6 36.9 30.5C36.6 29.9 36.1 29.4 35.6 29C35.8 29.6 36 30.3 36.3 30.9Z"
+                                    fill="#F38522"></path>
+                                <path d="M11.6 38L9.19995 39.5H12L11.6 38Z" fill="#008E3F"></path>
+                                <path d="M28.4 30.9H9.19995V31.2H28.4V30.9Z" fill="#66D095"></path>
+                            </svg></div>
+                    </div>
+                    <div class="service-text">
+                        <h5>Mart</h5>
+                        <p>Temukan Semua Kebutuhan Pokok Anda dan Banyka lagi</p>
+                    </div>
+                </div>
+                <hr>
+            </a>
+        </div>
+    </div>
+    <div class="deliveries row d-flex justify-content-around">
+        <h1 class="col-5"></h1>
+        <div class="grup col-5">
+            <a href="#">
+                <div class="service-content d-flex">
+                    <div class="service-icon">
+                        <a href="https://www.grab.com/id/mart/?utm_campaign=gw_exp_home0_202110&amp;utm_source=grab.com&amp;utm_medium=referral&amp;utm_content=GrabMart_InfoTile"
+                            class="service-content___24aB5">
+                            <div class="service-icon___1JsrU"><svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56"
+                                    fill="none">
+                                    <path
+                                        d="M56 28C56 33.7 54.3 39 51.4 43.4C51.1 43.8 50.9 44.2 50.6 44.6C45.4 51.5 37.2 56 28 56C18.8 56 10.6 51.5 5.5 44.7C5.2 44.3 4.9 43.9 4.7 43.5C2.5 40.2 1 36.6 0.4 32.7C0.1 31.2 0 29.6 0 28C0 26.7 0.1 25.5 0.2 24.2C2.1 10.6 13.8 0 28 0C43.5 0 56 12.5 56 28Z"
+                                        fill="#CCEFDC"></path>
+                                    <path
+                                        d="M28 45.2999C42.1937 45.2999 53.7 44.7179 53.7 44C53.7 43.282 42.1937 42.7 28 42.7C13.8063 42.7 2.29999 43.282 2.29999 44C2.29999 44.7179 13.8063 45.2999 28 45.2999Z"
+                                        fill="#99E0B9"></path>
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M46 43.4H10C8.20001 43.4 6.80001 42 6.80001 40.2L6.70001 17.1C6.70001 15.3 8.10001 13.9 9.90001 13.9H45.9C47.7 13.9 49.1 15.3 49.1 17.1L49.2 40.2C49.2 42 47.8 43.4 46 43.4Z"
+                                        fill="white"></path>
+                                    <path d="M31.7 38.9H24.6V43.5H31.7V38.9Z" fill="#F18275"></path>
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M30.4 14.7H46C47.4 14.7 48.5 15.8 48.5 17.2V40.5999C48.5 42.1999 47.2 43.5 45.6 43.5H30.4C28.8 43.5 27.5 42.1999 27.5 40.5999V17.6C27.5 16 28.8 14.7 30.4 14.7Z"
+                                        fill="#FDF4D9"></path>
+                                    <path d="M42.5905 14.7892L35.1906 14.8112L35.2101 21.4112L42.6101 21.3892L42.5905 14.7892Z" fill="#F39D56">
+                                    </path>
+                                    <path d="M45.3 31.8H32.6V38.9001H45.3V31.8Z" fill="white"></path>
+                                    <path d="M43.4 33.5H34.4V37.3H43.4V33.5Z" fill="#F39D56"></path>
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M9.60001 14.8H24.6C26.2 14.8 27.5 16.1 27.5 17.7V40.7001C27.5 42.3001 26.2 43.6 24.6 43.6H9.60001C8.00001 43.6 6.70001 42.3001 6.70001 40.7001V17.7C6.70001 16.1 8.00001 14.8 9.60001 14.8Z"
+                                        fill="#F39D56"></path>
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M25.5 31.9L18.4 30L16.5 30.1V20.4L8.60001 27.2L6.70001 27V30.6V40.6C6.70001 42.2 8.00001 43.5 9.60001 43.5H24.6C24.9 43.5 25.2 43.4 25.5 43.3V31.9Z"
+                                        fill="#F38522"></path>
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M25.6 31.9001C25.6 31.9001 25.6 32.0001 25.5 32.0001C24.6 33.3001 17 30.5001 16.8 31.8001C16.5 33.1001 25.9 35.6001 25.2 36.9001C24.5 38.3001 15.8 33.5001 15.5 34.2001C15.2 34.9001 23.4 40.0001 22.6 40.8001C21.8 41.7001 14 35.5001 13.5 36.2001C13.1 36.8001 16.3 41.5001 16.7 42.8001C16.8 43.1001 16.7 43.2001 16.2 43.0001C16.1 42.9001 16.1 42.9001 16 42.8001C14.7 41.8001 13.7 40.6001 12.8 39.3001C11.9 38.0001 10.7 36.8001 9.3 35.9001C8.5 35.4001 7.8 34.9001 7.3 34.4001L6.8 34.3001L0.5 32.7001C0.1 31.2001 0 29.6001 0 28.0001C0 26.7001 0.1 25.5001 0.2 24.2001C1.9 25.3001 4 26.1001 5.7 26.5001C6 26.4001 6.3 26.2001 6.7 26.1001C6.9 26.0001 7.1 26.0001 7.4 25.9001C14.8 22.3001 14.8 18.3001 16 19.3001C16.5 19.7001 16.7 20.1001 16.6 20.6001C16.5 20.9001 16.4 21.3001 16.2 21.7001C15.6 22.9001 14.5 23.6001 13.9 24.6001C13.3 25.6001 14 26.6001 14.7 27.4001C15.2 27.9001 15.9 28.3001 16.6 28.6001C20.1 30.3001 26 30.5001 25.6 31.9001Z"
+                                        fill="white"></path>
+                                </svg></div>
+                    </div>
+                    <div class="service-text">
+                        <h5>Pengiriman</h5>
+                        <p>Kirim paket, dokumen, dan lain-lainnya</p>
+                    </div>
+                </div>
+                <hr>
+            </a>
+        </div>
+    </div>
+    <div class="deliveries row d-flex justify-content-around">
+        <h1 class="col-5"></h1>
+        <div class="grup col-5">
+            <a href="#">
+                <div class="service-content d-flex">
+                    <div class="service-icon">
+                        <a href="https://www.grab.com/id/express/?utm_campaign=gw_exp_home0_202110&amp;utm_source=grab.com&amp;utm_medium=referral&amp;utm_content=GrabExpress_InfoTile"
+                            class="service-content___24aB5">
+                            <div class="service-icon___1JsrU"><svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72"
+                                    fill="none">
+                                    <path
+                                        d="M36 72C55.8823 72 72 55.8823 72 36C72 16.1178 55.8823 0 36 0C16.1178 0 0 16.1178 0 36C0 55.8823 16.1178 72 36 72Z"
+                                        fill="#CCEFDC"></path>
+                                    <path
+                                        d="M36 72C55.8823 72 72 55.8823 72 36C72 16.1178 55.8823 0 36 0C16.1178 0 0 16.1178 0 36C0 55.8823 16.1178 72 36 72Z"
+                                        fill="#CCEFDC"></path>
+                                    <path
+                                        d="M16.3132 31.6098L8.34816 41.2038C7.12956 42.687 6.31236 44.46 5.99196 46.3626L5.25396 50.8122C5.25396 50.8446 5.23776 50.877 5.22156 50.8932L4.11816 52.7346C6.00096 56.313 8.46696 59.535 11.3902 62.2746C14.1712 58.0122 16.2484 54.9882 16.2484 54.9882L13.975 47.9826C14.7922 46.746 15.1864 45.2718 15.109 43.7814L14.9326 40.4766C14.9326 40.4442 14.9326 40.4118 14.9488 40.3794L17.1934 34.8822C17.6416 33.786 17.4346 32.4954 16.6318 31.6098C16.5364 31.5126 16.3906 31.5126 16.3114 31.6098H16.3132Z"
+                                        fill="white"></path>
+                                    <path
+                                        d="M18.47 60.4962C16.4612 60.4962 14.8916 59.0472 14.8916 57.195V14.535C14.8916 12.6828 16.4612 11.2338 18.47 11.2338H22.0178V60.4962H18.47Z"
+                                        fill="#C7712D"></path>
+                                    <path
+                                        d="M22.1204 60.5376C20.1116 60.5376 18.542 59.0868 18.542 57.231V14.5116C18.542 12.6558 20.1116 11.205 22.1204 11.205H53.687C55.6958 11.205 57.2654 12.6558 57.2654 14.5116V57.231C57.2654 59.0868 55.6958 60.5376 53.687 60.5376H22.1204Z"
+                                        fill="#FDF4D9"></path>
+                                    <path
+                                        d="M40.7324 11.205H22.1204C20.1116 11.205 18.542 12.6558 18.542 14.5116V57.231C18.542 59.0868 20.1116 60.5376 22.1204 60.5376H40.7324V11.205Z"
+                                        fill="#FCE9B3"></path>
+                                    <path
+                                        d="M32.0218 15.4962H24.0694C23.3596 15.4962 22.7842 16.0716 22.7842 16.7814V24.7338C22.7842 25.4436 23.3596 26.019 24.0694 26.019H32.0218C32.7316 26.019 33.307 25.4436 33.307 24.7338V16.7814C33.307 16.0716 32.7316 15.4962 32.0218 15.4962Z"
+                                        fill="#EE6352"></path>
+                                    <path
+                                        d="M51.4296 19.0944H37.2852C36.5754 19.0944 36 19.6698 36 20.3796V21.024C36 21.7338 36.5754 22.3092 37.2852 22.3092H51.4296C52.1394 22.3092 52.7148 21.7338 52.7148 21.024V20.3796C52.7148 19.6698 52.1394 19.0944 51.4296 19.0944Z"
+                                        fill="#EE6352"></path>
+                                    <path
+                                        d="M51.4296 34.2648H37.2852C36.5754 34.2648 36 34.8402 36 35.55V36.1944C36 36.9042 36.5754 37.4796 37.2852 37.4796H51.4296C52.1394 37.4796 52.7148 36.9042 52.7148 36.1944V35.55C52.7148 34.8402 52.1394 34.2648 51.4296 34.2648Z"
+                                        fill="#F39D56"></path>
+                                    <path
+                                        d="M51.4296 49.4334H37.2852C36.5754 49.4334 36 50.0088 36 50.7186V51.363C36 52.0728 36.5754 52.6482 37.2852 52.6482H51.4296C52.1394 52.6482 52.7148 52.0728 52.7148 51.363V50.7186C52.7148 50.0088 52.1394 49.4334 51.4296 49.4334Z"
+                                        fill="#F39D56"></path>
+                                    <path
+                                        d="M31.1993 16.7634L32.7977 18.3888L26.4617 24.6546L23.2793 21.4866L24.9047 19.8612L26.4617 21.4164L31.1993 16.7634Z"
+                                        fill="white"></path>
+                                    <path
+                                        d="M32.0218 30.6108H24.0694C23.3596 30.6108 22.7842 31.1862 22.7842 31.896V39.8484C22.7842 40.5582 23.3596 41.1336 24.0694 41.1336H32.0218C32.7316 41.1336 33.307 40.5582 33.307 39.8484V31.896C33.307 31.1862 32.7316 30.6108 32.0218 30.6108Z"
+                                        fill="#F39D56"></path>
+                                    <path
+                                        d="M32.0218 45.7992H24.0694C23.3596 45.7992 22.7842 46.3746 22.7842 47.0844V55.0368C22.7842 55.7466 23.3596 56.322 24.0694 56.322H32.0218C32.7316 56.322 33.307 55.7466 33.307 55.0368V47.0844C33.307 46.3746 32.7316 45.7992 32.0218 45.7992Z"
+                                        fill="#F39D56"></path>
+                                    <path
+                                        d="M18.5417 57.0582V43.0542L14.8931 45.9846V57.0582C14.8931 59.0094 16.4627 60.5376 18.4715 60.5376H22.2191L21.9869 59.6124C20.7431 59.0742 18.5417 58.4874 18.5417 57.0582Z"
+                                        fill="#9A5434"></path>
+                                    <path
+                                        d="M22.0771 60.4962H22.2193V37.4418L18.5005 40.4262V57.0024C18.5005 58.968 20.0845 60.4962 22.0789 60.4962H22.0771Z"
+                                        fill="#FCE9B3"></path>
+                                    <path
+                                        d="M5.50424 52.4934C5.53844 52.4772 5.55644 52.443 5.57264 52.4268L8.09804 47.9556C9.17984 46.0458 10.7602 44.4384 12.6844 43.317L25.153 36.0306C25.2736 35.964 25.4446 36.0144 25.4968 36.1476C26.0296 37.404 25.7884 38.844 24.8614 39.8664L20.275 44.8902C20.257 44.9244 20.2408 44.9406 20.2228 44.991L19.1572 48.5928C18.6586 50.2686 17.611 51.7248 16.1692 52.7472C14.4682 53.9532 12.3568 54.4716 10.2778 54.1872L9.14384 54.036L5.50244 52.4952L5.50424 52.4934Z"
+                                        fill="white"></path>
+                                </svg></div>
+                    </div>
+                    <div class="service-text">
+                        <h5>Jastip</h5>
+                        <p>Kirim paket, dokumen, dan lain-lainnya</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+<hr>
+
+    <div class="deliveries row d-flex justify-content-around">
+        <h1 class="col-5">Mobility</h1>
+        <div class="grup col-5">
+            <a href="#">
+                <div class="service-content d-flex">
+                    <div class="service-icon">
+                    <a href="https://www.grab.com/id/transport/?utm_campaign=gw_exp_home0_202110&amp;utm_source=grab.com&amp;utm_medium=referral&amp;utm_content=Transport_InfoTile"
+                        class="service-content___24aB5">
+                        <div class="service-icon___1JsrU"><svg xmlns="http://www.w3.org/2000/svg" width="62" height="56" viewBox="0 0 62 56"
+                                fill="none">
+                                <path
+                                    d="M29.3 56C44.764 56 57.3 43.464 57.3 28C57.3 12.536 44.764 0 29.3 0C13.836 0 1.29999 12.536 1.29999 28C1.29999 43.464 13.836 56 29.3 56Z"
+                                    fill="#CCEFDC"></path>
+                                <path
+                                    d="M30.7 45.2999C47.6551 45.2999 61.4 44.7179 61.4 44C61.4 43.282 47.6551 42.7 30.7 42.7C13.7449 42.7 0 43.282 0 44C0 44.7179 13.7449 45.2999 30.7 45.2999Z"
+                                    fill="#99E0B9"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M10.8 38.7999H54.4C54.4 40.2999 53.2 41.4999 51.8 41.4999H10.8V38.7999Z" fill="#4B4B4B"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M49.8 42.3999C49 41.3999 48.6 39.8999 48.6 38.2999C48.6 35.2999 50.2 32.7999 52.1 32.7999C54 32.7999 55.6 35.1999 55.6 38.2999C55.6 41.3999 54 43.7999 52.1 43.7999H48.8V42.4999H49.8V42.3999Z"
+                                    fill="#4B4B4B"></path>
+                                <path
+                                    d="M48.8 43.7C50.733 43.7 52.3 41.2375 52.3 38.2C52.3 35.1624 50.733 32.7 48.8 32.7C46.867 32.7 45.3 35.1624 45.3 38.2C45.3 41.2375 46.867 43.7 48.8 43.7Z"
+                                    fill="#4B4B4B"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M60.6 32.9L59 29.6C58.7 29 58.2 28.5999 57.6 28.2999L50.6 25.4C46.4 21.0999 40.7 18.7 34.7 18.7H15.5C20.1 18.7 24.4 21.2 26.7 25.2L26.9 25.5L33.9 28.4C34.5 28.7 35 29.1 35.2 29.7L36.8 33C37.2 33.8 37.2 34.6 36.8 35.4L35.5 38C35.3 38.2999 35.3 38.7 35.5 39C35.7 39.2999 36 39.5 36.3 39.5H57C58 39.5 58.9 38.9 59.4 38L60.7 35.2999C61 34.5999 61 33.7 60.6 32.9Z"
+                                    fill="#66D095"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M59.3 30.1H35.5L36.9 32.9C37.3 33.7 37.3 34.5 36.9 35.3L35.5 38C35.4 38.2 34.4 38.7 32.5 39.5C34.9 39.5 36.1 39.5 36.4 39.5H57C58 39.5 58.9 38.9 59.4 38L60.7 35.3C61.1 34.5 61.1 33.7 60.7 32.9L59.3 30.1Z"
+                                    fill="#00B14F"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M15.2 25.4H50.7C49.1 23.8 47.3 22.4 45.3 21.4H15.2V25.4Z"
+                                    fill="#00B14F"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M7.40001 42.3999C6.60001 41.3999 6.20001 39.8999 6.20001 38.2999C6.20001 35.2999 7.80001 32.7999 9.70001 32.7999C11.6 32.7999 13.2 35.1999 13.2 38.2999C13.2 41.3999 11.6 43.7999 9.70001 43.7999H6.30001V42.4999H7.40001V42.3999Z"
+                                    fill="#4B4B4B"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M25.3 42.3999C24.5 41.3999 24.1 39.8999 24.1 38.2999C24.1 35.2999 25.7 32.7999 27.6 32.7999C29.5 32.7999 31.1 35.1999 31.1 38.2999C31.1 41.3999 29.5 43.7999 27.6 43.7999H24.3V42.4999H25.3V42.3999Z"
+                                    fill="#4B4B4B"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M36.9 32.9L35.3 29.6C35 29 34.5 28.6 34 28.3L27 25.4L26.8 25.1C24.5 21.1 20.2 18.6 15.5 18.6H14.8C10.6 18.6 6.70001 20.9 4.60001 24.5C4.30001 25 3.80001 25.5 3.20001 25.7L2.90001 25.8C1.30001 26.4 0.200012 27.9 0.200012 29.6V34.6C0.200012 36.6 1.70001 38.3 3.70001 38.6L10.8 39.5H33.2C34.2 39.5 35.1 38.9 35.6 38L36.9 35.3C37.2 34.6 37.2 33.7 36.9 32.9Z"
+                                    fill="#008E3F"></path>
+                                <path
+                                    d="M6.10004 43.7C8.03303 43.7 9.60004 41.2375 9.60004 38.2C9.60004 35.1624 8.03303 32.7 6.10004 32.7C4.16704 32.7 2.60004 35.1624 2.60004 38.2C2.60004 41.2375 4.16704 43.7 6.10004 43.7Z"
+                                    fill="#4B4B4B"></path>
+                                <path
+                                    d="M24.3 43.7C26.233 43.7 27.8 41.2375 27.8 38.2C27.8 35.1624 26.233 32.7 24.3 32.7C22.367 32.7 20.8 35.1624 20.8 38.2C20.8 41.2375 22.367 43.7 24.3 43.7Z"
+                                    fill="#4B4B4B"></path>
+                                <path
+                                    d="M5.90002 41.0999C6.72845 41.0999 7.40002 39.8016 7.40002 38.1999C7.40002 36.5983 6.72845 35.2999 5.90002 35.2999C5.0716 35.2999 4.40002 36.5983 4.40002 38.1999C4.40002 39.8016 5.0716 41.0999 5.90002 41.0999Z"
+                                    fill="white"></path>
+                                <path
+                                    d="M24.1 41.0999C24.9285 41.0999 25.6 39.8016 25.6 38.1999C25.6 36.5983 24.9285 35.2999 24.1 35.2999C23.2716 35.2999 22.6 36.5983 22.6 38.1999C22.6 39.8016 23.2716 41.0999 24.1 41.0999Z"
+                                    fill="white"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M3.10001 31.2L4.10001 28.1H0.500012C0.300012 28.6 0.200012 29.1 0.200012 29.7V32.2H1.90001C2.40001 32.1 2.90001 31.7 3.10001 31.2Z"
+                                    fill="#EE6352"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M8.00002 25.3999H26.9L26.7 25.0999C25.8 23.5999 24.7 22.3999 23.4 21.2999H11.5C10.2 21.2999 8.90002 21.9999 8.20002 23.0999L7.40002 24.2999C7.30002 24.4999 7.20002 24.7999 7.40002 24.9999C7.50002 25.1999 7.80002 25.3999 8.00002 25.3999Z"
+                                    fill="#4B4B4B"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M45.5 31.4L53.4 34.1L57.7 31.4V30.1H44.2L45.5 31.4Z"
+                                    fill="#4B4B4B"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M47.4 32.1L45.4 30.1H35.4L36.8 33C36.9 33.2 37 33.4 37 33.6L44.5 35L47.4 32.1Z" fill="white"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M35.5 30.1H31.1L33.2 32.8L37 33.5C36.9 33.3 36.9 33.1 36.8 32.9L35.5 30.1Z" fill="#F7C942"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M59.8 30.1H57.7L57 31.9L58.9 34.7L60.6 31.4L59.8 30.1Z"
+                                    fill="white"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M58.2 39.2L57.3 36.4C57.1 35.9 56.6 35.5 56.1 35.5H47.1C46.7 35.5 46.2 35.7 46 36.1L43.7 39.5H57C57.4 39.6 57.8 39.5 58.2 39.2Z"
+                                    fill="#4B4B4B"></path>
+                            </svg></div>
+                    </div>
+                    <div class="service-text">
+                        <h5>Transportasi</h5>
+                        <p>pilih beragam kendaraan untuk membawa Anda dari A ke B dengan aman.</p>
+                    </div>
+                </div>
+                <hr>
+            </a>
+        </div>
+    </div>
+<hr>
+
+    <div class="deliveries row d-flex justify-content-around">
+        <h1 class="col-5">Financial Services</h1>
+        <div class="grup col-5">
+            <a href="#">
+                <div class="service-content d-flex">
+                    <div class="service-icon">
+                    <a href="https://www.grab.com/id/pay/" class="service-content___24aB5">
+                        <div class="service-icon___1JsrU"><svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72"
+                                fill="none">
+                                <path
+                                    d="M36 72C55.8823 72 72 55.8823 72 36C72 16.1178 55.8823 0 36 0C16.1178 0 0 16.1178 0 36C0 55.8823 16.1178 72 36 72Z"
+                                    fill="#CCEFDC"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M7.29346 54.6858C7.29346 53.8362 20.1455 53.1468 35.9999 53.1468C51.8543 53.1468 64.7063 53.8362 64.7063 54.6858C64.7063 55.5354 51.8543 56.2248 35.9999 56.2248C20.1455 56.2248 7.29346 55.5354 7.29346 54.6858Z"
+                                    fill="#99E0B9"></path>
+                                <path
+                                    d="M14.2256 23.1696C14.2256 21.1662 15.8492 19.5444 17.8508 19.5444H50.987C52.7474 19.5444 54.1748 20.9718 54.1748 22.7322V27.6444H17.4134C15.653 27.6444 14.2256 26.217 14.2256 24.4566"
+                                    fill="#4C3392"></path>
+                                <path
+                                    d="M49.2942 12.0459L17.081 21.8207C16.6881 21.9399 16.4663 22.3551 16.5855 22.7479L22.882 43.4983C23.0012 43.8911 23.4164 44.113 23.8092 43.9938L56.0224 34.2189C56.4153 34.0997 56.6372 33.6846 56.518 33.2917L50.2214 12.5414C50.1022 12.1485 49.6871 11.9266 49.2942 12.0459Z"
+                                    fill="#F39D56"></path>
+                                <path
+                                    d="M50.8718 11.5633L18.6586 21.3381C18.2658 21.4573 18.0439 21.8724 18.1631 22.2653L24.4596 43.0156C24.5789 43.4085 24.994 43.6304 25.3869 43.5112L57.6001 33.7363C57.993 33.6171 58.2148 33.202 58.0956 32.8091L51.7991 12.0588C51.6799 11.6659 51.2647 11.444 50.8718 11.5633Z"
+                                    fill="#FDF4D9"></path>
+                                <path d="M25.2008 19.353L22.7188 20.1061L29.4114 42.1621L31.8935 41.4089L25.2008 19.353Z" fill="#F38522">
+                                </path>
+                                <path
+                                    d="M49.7498 22.0407L42.5844 24.215C42.4332 24.2609 42.3478 24.4207 42.3937 24.572L43.8906 29.5051C43.9365 29.6563 44.0963 29.7417 44.2475 29.6958L51.4129 27.5215C51.5642 27.4756 51.6496 27.3158 51.6037 27.1646L50.1068 22.2315C50.0609 22.0802 49.901 21.9948 49.7498 22.0407Z"
+                                    fill="#F39D56"></path>
+                                <path
+                                    d="M14.2505 23.2938C14.3837 24.9318 15.7391 26.2242 17.4131 26.2242H54.6245C56.3849 26.2242 57.8123 27.6516 57.8123 29.412V51.4962C57.8123 53.2566 56.3849 54.684 54.6245 54.684H17.3753C15.6149 54.684 14.1875 53.2566 14.1875 51.4962"
+                                    fill="#4C3392"></path>
+                                <path
+                                    d="M57.814 45.1206H46.186C45.3364 45.1206 44.647 44.4312 44.647 43.5816V36.4806C44.647 35.631 45.3364 34.9416 46.186 34.9416H57.814V45.1206Z"
+                                    fill="#3A2271"></path>
+                                <path
+                                    d="M59.4955 43.7904H47.3293C46.7101 43.7904 46.2079 43.2882 46.2079 42.669V36.063C46.2079 35.4438 46.7101 34.9416 47.3293 34.9416H59.4955C59.6755 34.9416 59.8213 35.0874 59.8213 35.2674V43.4664C59.8213 43.6464 59.6755 43.7922 59.4955 43.7922V43.7904Z"
+                                    fill="#4C3392"></path>
+                                <path
+                                    d="M50.911 41.9292C52.3634 41.9292 53.5409 40.7518 53.5409 39.2994C53.5409 37.847 52.3634 36.6696 50.911 36.6696C49.4586 36.6696 48.2812 37.847 48.2812 39.2994C48.2812 40.7518 49.4586 41.9292 50.911 41.9292Z"
+                                    fill="#00B14F"></path>
+                                <path
+                                    d="M14.2508 23.2938C14.384 24.9318 15.7394 26.2242 17.4134 26.2242H18.9542V54.6858H17.3738C15.6134 54.6858 14.186 53.2584 14.186 51.498L14.2508 23.2938Z"
+                                    fill="#3A2271"></path>
+                                <path
+                                    d="M41.2433 36.7542C40.6115 36.1116 39.7637 35.7642 38.8475 35.7642C37.9313 35.7642 37.0709 36.1134 36.4391 36.7542C35.8199 37.3824 35.4707 38.2464 35.4707 39.168C35.4707 40.0896 35.8199 40.9536 36.4391 41.58C37.0709 42.2226 37.9187 42.57 38.8475 42.57C39.7763 42.57 40.6097 42.2226 41.2433 41.58C41.8625 40.9518 42.2117 40.0878 42.2117 39.168C42.2117 38.2482 41.8625 37.3824 41.2433 36.7542ZM38.8475 41.4702C37.6361 41.4702 36.7217 40.4802 36.7217 39.168C36.7217 37.8558 37.6361 36.8658 38.8475 36.8658C40.0589 36.8658 40.9607 37.8558 40.9607 39.168C40.9607 40.4802 40.0445 41.4702 38.8475 41.4702ZM32.8967 37.035H33.5537L32.0471 40.7322L30.4865 37.035H31.1453V35.946H28.4543V37.035H29.1131L31.2191 41.8878C31.3991 42.3036 31.8005 42.57 32.2415 42.57H32.4737L35.0333 36.5598V35.946H32.8949V37.035H32.8967ZM24.8021 35.766C23.8733 35.766 23.0255 36.1152 22.3937 36.756C21.7745 37.3842 21.4253 38.2482 21.4253 39.1698C21.4253 40.0914 21.7745 40.9554 22.3937 41.5818C23.0255 42.2244 23.8733 42.5718 24.8021 42.5718C25.7309 42.5718 26.5643 42.2244 27.1979 41.5818C27.8171 40.9536 28.1663 40.0896 28.1663 39.1698C28.1663 38.25 27.8171 37.3842 27.1979 36.756C26.5661 36.1134 25.7183 35.766 24.8021 35.766ZM24.8021 41.472C23.5907 41.472 22.6763 40.482 22.6763 39.1698C22.6763 37.8576 23.5907 36.8676 24.8021 36.8676C26.0135 36.8676 26.9153 37.8576 26.9153 39.1698C26.9153 40.482 26.0009 41.472 24.8021 41.472Z"
+                                    fill="white"></path>
+                            </svg></div>
+                    </div>
+                    <div class="service-text">
+                        <h5>Pembayaran</h5>
+                        <p>Pembayaran tanpa uang tunai yang aman dan lancar</p>
+                    </div>
+                </div>
+                <hr>
+            </a>
+        </div>
+    </div>
+    <div class="deliveries row d-flex justify-content-around">
+        <h1 class="col-5"></h1>
+        <div class="grup col-5">
+            <a href="#">
+                <div class="service-content d-flex">
+                    <div class="service-icon">
+                    <a href="https://www.grab.com/id/insurance/" class="service-content___24aB5">
+                        <div class="service-icon___1JsrU"><svg xmlns="http://www.w3.org/2000/svg" width="64" height="56" viewBox="0 0 64 56"
+                                fill="none">
+                                <path
+                                    d="M31.75 56C47.214 56 59.75 43.464 59.75 28C59.75 12.536 47.214 0 31.75 0C16.286 0 3.75 12.536 3.75 28C3.75 43.464 16.286 56 31.75 56Z"
+                                    fill="#CCEFDC"></path>
+                                <path
+                                    d="M57.9092 20.1252H5.9759L0 27.2059C1.03133 27.2523 2.02001 27.6309 2.8185 28.2853C3.55671 28.8105 4.13243 29.5326 4.48 30.3692C4.48 30.3692 13.8035 28.2843 20.9212 33.0136C21.1185 33.0276 21.3199 33.0398 21.519 33.053C21.6917 33.0644 21.8635 33.0763 22.0375 33.0872C25.076 31.7465 28.361 31.0548 31.6821 31.0564C35.0033 31.0579 38.2876 31.7527 41.3249 33.0962C41.5458 33.0827 41.7628 33.0675 41.9815 33.053C42.1806 33.0398 42.382 33.0276 42.5793 33.0136C49.6967 28.2843 59.02 30.3692 59.02 30.3692C59.4167 29.4902 60.0413 28.7334 60.829 28.1771C61.6168 27.6209 62.539 27.2856 63.5 27.2059L57.9092 20.1252Z"
+                                    fill="#00B14F"></path>
+                                <path
+                                    d="M18.2178 23.1462C21.082 13.452 26.0681 7.02118 31.75 7.02118C25.0871 7.02302 18.5625 8.9225 12.9397 12.4973C7.31695 16.0722 2.82864 21.1745 0 27.2072C0 27.2072 4.7709 21.5 18.2178 23.1462Z"
+                                    fill="#006A2F"></path>
+                                <path
+                                    d="M45.2822 23.1462C42.418 13.452 37.4319 7.02118 31.75 7.02118C38.4129 7.02302 44.9375 8.9225 50.5603 12.4973C56.1831 16.0722 60.6714 21.1745 63.5 27.2072C63.5 27.2072 58.7291 21.5 45.2822 23.1462Z"
+                                    fill="#33C172"></path>
+                                <path
+                                    d="M45.282 23.1462C42.4179 13.4521 37.432 7.02118 31.75 7.02118C26.068 7.02118 21.082 13.4521 18.2178 23.1462C18.2178 23.1462 29.4953 17.1142 45.282 23.1462Z"
+                                    fill="#008E3F"></path>
+                                <path
+                                    d="M31.2623 7.89003V6.24002C31.2623 6.11076 31.3137 5.98679 31.4051 5.89538C31.4965 5.80398 31.6205 5.75262 31.7497 5.75262C31.879 5.75262 32.003 5.80398 32.0944 5.89538C32.1858 5.98679 32.2371 6.11076 32.2371 6.24002V7.89003"
+                                    fill="#008E3F"></path>
+                                <path
+                                    d="M47.1305 47.9C49.1882 47.2374 51.7563 45.7971 52.3357 43.5336C52.9101 41.29 51.1724 39.8736 49.7325 38.5002C48.8779 37.773 48.3115 36.7642 48.1356 35.6559C47.9276 33.9696 47.9905 32.4281 47.1866 30.865C46.6024 29.5513 45.5891 28.4752 44.3128 27.8132C43.0366 27.1513 41.5732 26.9427 40.1628 27.2218C38.9095 27.5716 37.7826 28.2729 36.9152 29.2428C36.0478 30.2127 35.4763 31.4107 35.2681 32.6951C34.7817 34.9388 34.6786 37.4585 32.6267 38.9904C30.5831 40.516 29.0662 42.4104 28.9322 45.0779C28.8684 45.8202 28.998 46.5664 29.3085 47.2436C30.8306 50.2499 36.064 49.7236 38.7957 49.4524C41.4739 49.176 44.1266 48.6925 46.73 48.0065C46.8633 47.9719 47 47.9424 47.1305 47.9Z"
+                                    fill="#41342E"></path>
+                                <path
+                                    d="M31.75 56C27.2732 56.0024 22.8613 54.9296 18.8854 52.872C14.9095 50.8144 11.4859 47.8321 8.90247 44.176C10.3243 42.6459 12.0497 41.4292 13.9683 40.6036C15.887 39.7781 17.9568 39.3618 20.0455 39.3815C24.9585 39.3108 29.7836 40.6882 33.9189 43.3421L31.75 56Z"
+                                    fill="#66D095"></path>
+                                <path
+                                    d="M52.7554 46.5042C51.561 45.0914 50.089 43.9391 48.4307 43.119C46.7724 42.2988 44.9632 41.8283 43.1154 41.7365C39.6429 41.7123 36.1988 42.3624 32.974 43.6506C30.9781 41.6852 28.417 40.394 25.65 39.958C25.5465 40.4443 25.495 40.9402 25.4966 41.4374C25.4285 42.4184 25.0543 43.3533 24.4266 44.1103C23.9559 44.6622 23.6092 45.3088 23.4101 46.0063C23.2109 46.7038 23.164 47.436 23.2723 48.1532C23.4762 49.162 24.0355 50.0641 24.8485 50.6952C24.1282 51.9416 23.5499 53.2648 23.1242 54.64C25.8457 55.5185 28.6857 55.9745 31.5454 55.992L31.5481 55.995C31.6157 55.9955 31.6823 56.0002 31.75 56.0002C32.2073 56.0002 32.6616 55.9873 33.1135 55.9657L33.115 55.9627C36.8557 55.7836 40.5221 54.8539 43.8962 53.229C47.2703 51.6041 50.2831 49.3171 52.7554 46.5042Z"
+                                    fill="#33C172"></path>
+                                <path
+                                    d="M27.1346 41.8651C27.4368 41.4556 27.6108 40.9658 27.6346 40.4575C25.9337 39.967 24.1886 39.6449 22.4246 39.4958L17.8315 39.5515C17.1304 39.6476 16.4365 39.791 15.7546 39.9807L16.7322 40.7372C17.076 41.0097 20.1648 43.3993 22.7967 43.3993C24.9539 43.3993 26.3728 42.8974 27.1346 41.8651Z"
+                                    fill="#00B14F"></path>
+                                <path
+                                    d="M45.78 42.0952C44.9109 41.8622 44.0154 41.7416 43.1155 41.7365C41.0383 41.7355 38.9672 41.9608 36.9388 42.4085C37.6625 43.2343 38.5789 43.8686 39.6066 44.2552C40.6343 44.6418 41.7415 44.7687 42.83 44.6246C45.1345 44.4229 45.7536 43.2571 45.78 42.0952Z"
+                                    fill="#00B14F"></path>
+                                <path
+                                    d="M22.797 41.8988C20.6108 41.8988 17.6649 39.5623 17.6649 39.5623L17.693 32.48L25.3953 33.8874C25.3953 33.8874 25.227 38.1758 26.1235 40.0755C26.1235 40.0754 26.6855 41.8988 22.797 41.8988Z"
+                                    fill="#F9D2AA"></path>
+                                <path
+                                    d="M25.691 38.6257C24.7621 39.1841 23.6529 39.3607 22.5964 39.1185C21.1935 38.7816 19.9595 37.9489 19.122 36.774C19.1096 36.764 19.0935 36.7548 19.0815 36.7446C19.3493 37.6494 19.8855 38.4515 20.6192 39.0448C21.3528 39.6382 22.2493 39.9948 23.19 40.0674C23.2754 41.1351 23.3625 41.8847 23.3625 41.8847C26.6286 41.7929 26.1237 40.0754 26.1237 40.0754C25.9219 39.6113 25.7766 39.1246 25.691 38.6257Z"
+                                    fill="#E5A677"></path>
+                                <path
+                                    d="M22.5964 24.5149C19.5242 24.5149 17.0336 26.6349 17.0336 30.7899C17.0336 31.0889 17.0519 31.3844 17.0798 31.6777C16.5666 31.8759 16.499 32.6731 16.6798 33.5456C16.8825 34.5267 17.431 34.8346 17.9157 34.798C18.9574 37.104 20.7794 38.808 22.5969 39.118C27.4412 39.9458 28.1597 34.9446 28.1597 30.7894C28.1597 26.6342 25.6687 24.5149 22.5964 24.5149Z"
+                                    fill="#F9D2AA"></path>
+                                <path
+                                    d="M22.5965 39.1185C27.4408 39.9463 28.1593 34.9451 28.1593 30.7899C28.1593 26.6347 25.6687 24.515 22.5965 24.515C22.5965 24.515 26.6436 26.385 26.6436 32.5791C26.6436 38.7732 22.5965 39.1185 22.5965 39.1185Z"
+                                    fill="#F9BA8A"></path>
+                                <path
+                                    d="M43.72 35.6631C43.4288 37.7166 43.6017 39.8092 44.2262 41.7869C44.2262 41.7869 44.9575 43.0829 42.503 43.315C42.5027 43.315 41.0916 32.8968 43.72 35.6631Z"
+                                    fill="#E5A677"></path>
+                                <path
+                                    d="M40.1949 39.5686C41.3584 40.0116 42.6181 40.1407 43.8473 39.9429L43.2358 41.3729C42.6054 41.4182 41.9762 41.2696 41.4327 40.9471C40.8891 40.6246 40.4572 40.1436 40.1949 39.5686Z"
+                                    fill="#E5A677"></path>
+                                <path
+                                    d="M42.2565 28.5409C44.8287 28.5409 46.4775 30.2909 46.4775 33.7209C46.4775 37.1509 44.8186 40.5957 42.2565 40.5957C43.0004 40.1182 43.6392 39.494 44.1336 38.7612C44.628 38.0283 44.9677 37.2023 45.1319 36.3337C45.6012 33.4712 45.1675 30.6537 42.8325 29.7637L42.2565 28.5409Z"
+                                    fill="#F9BA8A"></path>
+                                <path
+                                    d="M28.5376 24.92C28.215 25.0859 27.8475 25.1434 27.4896 25.0838C27.4896 25.0838 17.4974 22.4838 16.4363 28.3384C16.1925 29.7904 16.2454 31.2767 16.5919 32.7077C16.5982 32.1946 16.7435 31.7929 17.0958 31.6687C17.6258 31.4822 18.2974 32.0199 18.5969 32.8699C18.6713 33.08 18.717 33.2992 18.7329 33.5216H19.3572C19.1745 31.968 19.4705 30.3957 20.2056 29.0149C29.9064 31.2381 29.123 25.243 28.5376 24.92Z"
+                                    fill="#41342E"></path>
+                                <path
+                                    d="M44.2259 41.7869C43.6015 39.8091 43.4285 37.7165 43.7197 35.6631H38.3406V42.1341C39.5372 43.0226 41.0177 43.4427 42.5027 43.315C44.9572 43.0829 44.2259 41.7869 44.2259 41.7869Z"
+                                    fill="#F9D2AA"></path>
+                                <path
+                                    d="M42.2565 28.5409C39.6842 28.5409 38.0354 30.2909 38.0354 33.7209V33.7247C37.9219 33.6954 37.8024 33.6996 37.6912 33.7366C37.2258 33.9006 37.1648 34.6103 37.3251 35.3859C37.512 36.2904 38.0337 36.5472 38.4737 36.4826C39.1972 38.784 40.7186 40.5957 42.2564 40.5957C44.8184 40.5957 46.4774 37.1508 46.4774 33.7209C46.4774 30.291 44.8287 28.5409 42.2565 28.5409Z"
+                                    fill="#F9D2AA"></path>
+                                <path
+                                    d="M42.628 40.5707C42.8414 40.5201 44.558 39.9607 44.9465 35.294C45.3614 30.3153 42.628 28.6213 42.628 28.6213C44.8729 29 46.4775 30.7113 46.4775 33.7205C46.4775 36.364 45.4923 39.0205 43.8668 40.0959C43.4976 40.3505 43.0728 40.5133 42.628 40.5707Z"
+                                    fill="#F9BA8A"></path>
+                                <path
+                                    d="M42.2565 27.745C36.9849 27.745 37.8436 32.9113 38.0105 33.7212C38.2522 33.804 38.4698 33.9449 38.6442 34.1316C38.8186 34.3183 38.9444 34.545 39.0105 34.7918C39.0311 34.8666 39.0475 34.9424 39.0598 35.019C42.6188 34.4522 44.1466 30.4554 44.1466 30.4554C45.211 30.9207 46.0487 31.7874 46.4776 32.867C46.4776 32.867 46.9064 27.745 42.2565 27.745Z"
+                                    fill="#41342E"></path>
+                                <path
+                                    d="M37.64 41.4377C37.64 44.4407 40.3875 45.6104 39.9 47.8318C39.7736 48.4516 39.4512 49.0142 38.9803 49.4365C38.5094 49.8587 37.9152 50.1183 37.2854 50.1766H27.3507C26.7209 50.1183 26.1266 49.8587 25.6557 49.4365C25.1849 49.0142 24.8624 48.4516 24.7361 47.8318C24.2486 45.6104 26.9961 44.4407 26.9961 41.4377C26.9961 41.4377 27.1061 36.0471 32.3179 36.0048C37.5297 35.9625 37.64 41.4377 37.64 41.4377Z"
+                                    fill="#41342E"></path>
+                                <path
+                                    d="M31.75 56C34.2848 55.9996 36.8079 55.6551 39.25 54.9759C38.6679 51.1934 37.2036 47.3112 33.6347 47.3112H30.0625C30.0625 47.3112 26.4747 49.0841 24.5664 55.0656C26.9104 55.6865 29.3251 56.0006 31.75 56Z"
+                                    fill="#F9BA8A"></path>
+                                <path
+                                    d="M33.6343 47.3112H30.0625C28.8445 48.0363 27.7974 49.0157 26.9925 50.1825C28.2296 50.9406 29.5425 51.5674 30.9099 52.0525C33.4708 52.9623 36.1884 53.3477 38.9013 53.1859C38.15 50.0609 36.6372 47.3112 33.6343 47.3112Z"
+                                    fill="#F39D56"></path>
+                                <path
+                                    d="M29.2111 47.8612C29.4774 47.6522 29.7624 47.4681 30.0625 47.3112H33.6343C34.2818 47.3028 34.9224 47.4449 35.5057 47.7263C35.5299 48.019 35.4699 48.3125 35.3328 48.5722C35.0964 48.9039 34.7771 49.1678 34.4069 49.3376C34.0367 49.5074 33.6284 49.5772 33.2228 49.5399C33.2228 49.5399 30.4588 49.4877 29.2111 47.8612Z"
+                                    fill="#F38522"></path>
+                                <path
+                                    d="M34.5285 43.1028H30.2691L30.0625 47.3572C30.0596 47.4172 30.5845 47.671 30.6564 47.7112C30.8895 47.8412 31.1272 47.9635 31.3708 48.0729C31.8543 48.3015 32.3705 48.4533 32.9008 48.5229C33.6753 48.6082 35.0034 48.3949 34.3208 47.3492C33.6364 46.3 34.5285 43.1028 34.5285 43.1028Z"
+                                    fill="#F9D2AA"></path>
+                                <path
+                                    d="M34.0806 46.4852C33.0111 46.677 31.9091 46.5571 30.9059 46.1398C31.3733 46.6715 32.0186 47.0145 32.7208 47.1047C32.7969 47.9147 32.9008 48.5226 32.9008 48.5226C33.6753 48.6079 35.0034 48.3946 34.3208 47.3489C34.1734 47.0841 34.0911 46.788 34.0806 46.4852Z"
+                                    fill="#E5A677"></path>
+                                <path
+                                    d="M36.94 42.4337C36.94 39.7719 35.354 38.4137 32.88 38.4137C30.6179 38.4137 29.1137 39.5619 28.87 41.7908C28.7412 41.7208 28.5903 41.7031 28.4488 41.7416C28.0503 41.8816 27.9981 42.4899 28.1353 43.1541C28.2871 43.8884 28.6961 44.1213 29.0593 44.0968C29.4581 45.248 30.4906 46.5735 33.1362 46.5735C37.3661 46.5739 36.94 42.4337 36.94 42.4337Z"
+                                    fill="#F9D2AA"></path>
+                                <path
+                                    d="M33.1361 46.5739C37.3661 46.5739 36.9402 42.4339 36.9402 42.4339C36.9402 39.7721 35.3542 38.4139 32.8802 38.4139C32.8802 38.4139 35.8041 40.0101 35.8041 42.4939C35.8038 46.1674 33.1361 46.5739 33.1361 46.5739Z"
+                                    fill="#F9BA8A"></path>
+                                <path
+                                    d="M33.1222 37.24C33.6659 37.2106 34.2093 37.303 34.7127 37.5103C35.2162 37.7177 35.667 38.0348 36.0322 38.4386C36.7541 39.3011 37.1471 40.3913 37.1416 41.516C36.8942 40.6496 36.3495 39.8982 35.603 39.3935C35.603 39.3935 32.7506 42.2177 29.8759 42.5451C29.7906 42.734 29.762 42.9436 29.7934 43.1485C29.7934 43.1485 28.6954 42.5371 28.6634 40.4307C28.6314 38.3243 30.8145 37.24 33.1222 37.24Z"
+                                    fill="#41342E"></path>
+                                <path
+                                    d="M43.8668 40.0959C43.3921 40.4196 42.8313 40.5936 42.2568 40.5953C41.4826 40.5383 40.7625 40.1768 40.2542 39.59L40.1949 39.5684C40.4114 39.9799 40.7075 40.3443 41.0658 40.6405C41.4242 40.9368 41.8378 41.159 42.2827 41.2942C42.3864 42.4542 42.5027 43.3149 42.5027 43.3149C44.9572 43.0828 44.2259 41.7868 44.2259 41.7868C44.0656 41.1677 43.958 40.623 43.8668 40.0959Z"
+                                    fill="#E5A677"></path>
+                            </svg></div>
+                    </div>
+                    <div class="service-text">
+                        <h5>Asuransi</h5>
+                        <p>Dapatkan perlindungan setiap hari dengan asuransi yang terjangkau.</p>
+                    </div>
+                </div>
+                <hr>
+            </a>
+        </div>
+    </div>
+    <div class="deliveries row d-flex justify-content-around">
+        <h1 class="col-5"></h1>
+        <div class="grup col-5">
+            <a href="#">
+                <div class="service-content d-flex">
+                    <div class="service-icon">
+                    <div class="service-icon___1JsrU"><svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72"
+                            fill="none">
+                            <path
+                                d="M35.9991 71.9982C55.8809 71.9982 71.9982 55.8809 71.9982 35.9991C71.9982 16.1173 55.8809 0 35.9991 0C16.1173 0 0 16.1173 0 35.9991C0 55.8809 16.1173 71.9982 35.9991 71.9982Z"
+                                fill="#CCEFDC"></path>
+                            <path
+                                d="M36.0206 61.6703C50.2222 61.6703 61.735 60.903 61.735 59.9565C61.735 59.01 50.2222 58.2427 36.0206 58.2427C21.8189 58.2427 10.3062 59.01 10.3062 59.9565C10.3062 60.903 21.8189 61.6703 36.0206 61.6703Z"
+                                fill="#99E0B9"></path>
+                            <path
+                                d="M22.6257 59.5762C20.8038 59.5762 19.3711 58.185 19.3711 56.4135V15.5541C19.3711 13.7826 20.8038 12.3914 22.6257 12.3914H46.1848C48.0067 12.3914 49.4394 13.7826 49.4394 15.5541V56.4153C49.4394 58.1868 48.0067 59.578 46.1848 59.578H22.6257V59.5762Z"
+                                fill="#00B14F"></path>
+                            <path
+                                d="M25.9431 59.5708C24.1212 59.5708 22.6885 58.1796 22.6885 56.4081V15.5541C22.6885 13.7826 24.1212 12.3914 25.9431 12.3914H49.5022C51.3241 12.3914 52.7568 13.7826 52.7568 15.5541V56.4099C52.7568 58.1814 51.3241 59.5726 49.5022 59.5726H25.9431V59.5708Z"
+                                fill="white"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M37.7887 57.5055C36.5668 57.5055 35.5757 56.4981 35.5757 55.2565C35.5757 54.0148 36.5668 53.0074 37.7887 53.0074C39.0105 53.0074 40.0017 54.0148 40.0017 55.2565C40.0017 56.4981 39.0105 57.5055 37.7887 57.5055Z"
+                                fill="#B2E8CA"></path>
+                            <path
+                                d="M50.0232 50.9099H25.4225C25.0315 50.9099 24.772 50.6576 24.772 50.2791V19.0989C24.772 18.7204 25.0315 18.4681 25.4225 18.4681H50.0232C50.4143 18.4681 50.6738 18.7204 50.6738 19.0989V50.4035C50.6738 50.6558 50.4143 50.9081 50.0232 50.9081V50.9099Z"
+                                fill="#00B14F"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M41.0903 35.4747V40.5891C41.0903 40.8702 40.8632 41.0991 40.5803 41.0991H34.8099C34.5288 41.0991 34.2999 40.872 34.2999 40.5891V35.4747H31.5427C31.1678 35.4747 30.8633 35.1701 30.8633 34.7953C30.8633 34.6313 30.9228 34.4727 31.0291 34.3502L37.1833 27.266C37.4284 26.9831 37.8573 26.9525 38.1402 27.1994C38.1637 27.2192 38.1853 27.2408 38.2051 27.2642L44.4116 34.3484C44.6585 34.6295 44.6297 35.0584 44.3485 35.3071C44.2242 35.4152 44.0656 35.4747 43.9016 35.4747H41.0867H41.0903Z"
+                                fill="white"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M55.3338 31.2685C54.9067 30.7081 55.0221 29.9152 55.5916 29.4953C56.161 29.0754 56.9702 29.1889 57.3991 29.7494C60.3257 33.5789 60.3257 37.5796 57.3991 41.4091C56.972 41.9695 56.1628 42.083 55.5916 41.6632C55.0221 41.2433 54.9049 40.4485 55.3338 39.8881C57.5721 36.9596 57.5721 34.1988 55.3338 31.2703V31.2685Z"
+                                fill="#66D095"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M59.3277 27.603C58.8231 27.1074 58.8231 26.3055 59.3277 25.8099C59.8323 25.3143 60.6486 25.3143 61.1532 25.8099C63.9735 28.578 65.4044 31.856 65.4044 35.5774C65.4044 39.2988 63.9735 42.5768 61.1532 45.3449C60.6486 45.8405 59.8323 45.8405 59.3277 45.3449C58.8231 44.8493 58.8231 44.0473 59.3277 43.5518C61.6704 41.2505 62.822 38.614 62.822 35.5774C62.822 32.5408 61.6704 29.9025 59.3277 27.603Z"
+                                fill="#66D095"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M15.7866 31.2685C16.2137 30.7081 16.0983 29.9152 15.5289 29.4953C14.9594 29.0754 14.1503 29.1889 13.7213 29.7494C10.7947 33.5789 10.7947 37.5796 13.7213 41.4091C14.1484 41.9695 14.9576 42.083 15.5289 41.6632C16.0983 41.2433 16.2155 40.4485 15.7866 39.8881C13.5483 36.9596 13.5483 34.1988 15.7866 31.2703V31.2685Z"
+                                fill="#66D095"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M11.795 27.603C12.2996 27.1074 12.2996 26.3055 11.795 25.8099C11.2904 25.3143 10.4741 25.3143 9.96946 25.8099C7.14914 28.578 5.71826 31.856 5.71826 35.5774C5.71826 39.2988 7.14914 42.5768 9.96946 45.3449C10.4741 45.8405 11.2904 45.8405 11.795 45.3449C12.2996 44.8493 12.2996 44.0473 11.795 43.5518C9.45225 41.2505 8.3007 38.614 8.3007 35.5774C8.3007 32.5408 9.45225 29.9025 11.795 27.603Z"
+                                fill="#66D095"></path>
+                        </svg></div>
+                    </div>
+                    <div class="service-text">
+                        <h5>Pulsa</h5>
+                        <p>Selalu terhubung dengan isi ulang pulsa dengan cepat.</p>
+                    </div>
+                </div>
+                <hr>
+            </a>
+        </div>
+    </div>
+    <div class="deliveries row d-flex justify-content-around">
+        <h1 class="col-5"></h1>
+        <div class="grup col-5">
+            <a href="#">
+                <div class="service-content d-flex">
+                    <div class="service-icon">
+                        <div class="service-icon___1JsrU"><svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72"
+                                fill="none">
+                                <g clip-path="url(#clip0_309_1210)">
+                                    <path
+                                        d="M36.0009 72.0018C55.8836 72.0018 72.0018 55.8836 72.0018 36.0009C72.0018 16.1182 55.8836 0 36.0009 0C16.1182 0 0 16.1182 0 36.0009C0 55.8836 16.1182 72.0018 36.0009 72.0018Z"
+                                        fill="#CCEFDC"></path>
+                                    <path
+                                        d="M36.0011 61.7144C52.0964 61.7144 65.1442 60.947 65.1442 60.0004C65.1442 59.0538 52.0964 58.2864 36.0011 58.2864C19.9057 58.2864 6.85791 59.0538 6.85791 60.0004C6.85791 60.947 19.9057 61.7144 36.0011 61.7144Z"
+                                        fill="#99E0B9"></path>
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M19.2431 55.1035V19.6956C19.3242 17.3201 17.5472 15.2817 15.1934 15.0673H52.582C54.5393 15.0673 56.6426 17.7275 56.6588 19.6956V59.6651L21.2941 59.7066C20.2001 59.4615 19.2431 57.5745 19.2431 55.1035Z"
+                                        fill="#FDF4D9"></path>
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M21.4565 59.7065C23.3994 59.7065 24.98 57.6285 24.98 55.0764V52.9317L62.0317 52.8362C62.0317 56.5705 59.8851 59.6254 57.5097 59.6254L21.4565 59.7065Z"
+                                        fill="#F39D56"></path>
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M19.2483 19.4919C19.2501 19.436 19.2519 19.3802 19.2519 19.3243C19.2519 16.9993 17.3974 15.1087 15.0958 15.0673C15.0922 15.0673 15.0886 15.0673 15.085 15.0673C15.0814 15.0673 15.076 15.0673 15.0724 15.0673C15.0544 15.0673 15.0382 15.0673 15.0202 15.0673C12.688 15.0673 10.7974 16.9651 10.7884 19.3081C10.783 19.4559 10.783 19.6036 10.792 19.7514V28.6602H16.6783V55.0512C16.6837 57.4339 19.1024 59.4344 21.4562 59.6976C20.2955 59.6976 19.2429 57.6447 19.2429 55.0512V19.7514C19.2483 19.6649 19.2501 19.5766 19.2501 19.4919H19.2483Z"
+                                        fill="#C7712D"></path>
+                                    <path
+                                        d="M27.8201 23.639V26.2451H28.7609C29.1863 26.2902 29.6116 26.1676 29.9487 25.9045C30.1956 25.6359 30.3181 25.2755 30.2875 24.9114C30.3199 24.5455 30.183 24.1851 29.918 23.9346C29.5684 23.7021 29.1484 23.5993 28.7303 23.639H27.8201ZM28.8835 28.0582H27.8201V32.3693H25.2158V21.7772H28.9916C30.0063 21.7051 31.0138 21.9899 31.8429 22.5828C32.4773 23.1524 32.8215 23.9778 32.7837 24.8321C32.7909 25.3782 32.6467 25.9153 32.3673 26.3821C32.0988 26.82 31.6987 27.1625 31.2265 27.3589L33.9083 32.1512V32.29H31.1652L28.8835 28.0564V28.0582Z"
+                                        fill="#C7712D"></path>
+                                    <path
+                                        d="M38.1945 29.9452C38.6379 29.9578 39.056 29.7415 39.3047 29.3721C39.6093 28.8692 39.7499 28.2835 39.7048 27.6977C39.7463 27.148 39.5985 26.6019 39.2885 26.1477C39.0235 25.8251 38.6252 25.6413 38.2089 25.6521C37.9386 25.6413 37.67 25.6954 37.4231 25.8071C37.2086 25.9026 37.0194 26.045 36.868 26.2252V29.5126C37.0356 29.664 37.2285 29.7848 37.4375 29.8695C37.6826 29.9398 37.9386 29.9668 38.1927 29.947L38.1945 29.9452ZM38.9028 31.697C38.4955 31.7078 38.09 31.6285 37.7151 31.4645C37.3943 31.3185 37.1059 31.1059 36.868 30.8445V35.1088H34.5088V23.9742H36.5742L36.7292 24.9817C36.9617 24.6104 37.2861 24.3076 37.67 24.0985C38.0791 23.8877 38.5351 23.7867 38.9965 23.803C39.4255 23.7975 39.8508 23.8823 40.2455 24.0517C40.6258 24.2067 40.961 24.4572 41.2169 24.7798C41.5107 25.1349 41.7306 25.5476 41.864 25.9891C42.028 26.5424 42.1055 27.1174 42.0947 27.6941C42.1073 28.2835 42.0244 28.8692 41.8477 29.4315C41.7036 29.8893 41.4729 30.3165 41.1701 30.6877C40.8961 31.0085 40.5537 31.2627 40.168 31.4321C39.7697 31.6087 39.3389 31.6988 38.9046 31.6952L38.9028 31.697Z"
+                                        fill="#C7712D"></path>
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M25.2144 45.2359H51.5423V47.7339H25.2144V45.2359ZM25.2144 37.7095H51.5423V40.2075H25.2144V37.7095ZM43.7708 30.1831H51.5405V32.6811H43.7708V30.1831ZM43.7708 22.6567H51.5405V25.1547H43.7708V22.6567Z"
+                                        fill="#F39D56"></path>
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_309_1210">
+                                        <rect width="72" height="72" fill="white"></rect>
+                                    </clipPath>
+                                </defs>
+                            </svg></div>
+                    </div>
+                    <div class="service-text">
+                        <h5>Pembayaran Tagihan</h5>
+                        <p>Bayar semua tagihan tanpa perlu repot.</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+<hr>
+    <div class="deliveries row d-flex justify-content-around">
+        <h1 class="col-5">Others</h1>
+        <div class="grup col-5">
+            <a href="#">
+                <div class="service-content d-flex">
+                    <div class="service-icon">
+                    <a href="https://www.grab.com/id/travel/hotels/" class="service-content___24aB5">
+                        <div class="service-icon___1JsrU"><svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56"
+                                fill="none">
+                                <path
+                                    d="M28 56C43.464 56 56 43.464 56 28C56 12.536 43.464 0 28 0C12.536 0 0 12.536 0 28C0 43.464 12.536 56 28 56Z"
+                                    fill="#CCEFDC"></path>
+                                <path
+                                    d="M28.7 47.9C41.2369 47.9 51.4 47.318 51.4 46.6C51.4 45.882 41.2369 45.3 28.7 45.3C16.1631 45.3 6 45.882 6 46.6C6 47.318 16.1631 47.9 28.7 47.9Z"
+                                    fill="#99E0B9"></path>
+                                <path d="M23.8 11H12.5V46.3H23.8V11Z" fill="#008E3F"></path>
+                                <path d="M45.5 11H23.8V46.3H45.5V11Z" fill="white"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M38.6 41.8V46.3H31.4V41.8C31.5 39.9 33.1 38.4 35 38.4C36.8 38.4 38.4 39.9 38.6 41.8Z" fill="#008E3F">
+                                </path>
+                                <path
+                                    d="M16.7 16.7C16.7 16.3 16.5 15.9 16.2 15.6C15.9 15.3 15.5 15.1 15.1 15.1H11C10.6 15.1 10.2 15.3 9.90002 15.6C9.60002 15.9 9.40002 16.3 9.40002 16.7V42.5C9.40002 42.9 9.60002 43.3 9.90002 43.6C10.2 43.9 10.6 44.1 11 44.1H15.2C15.6 44.1 16 43.9 16.3 43.6C16.6 43.3 16.8 42.9 16.8 42.5V16.7H16.7Z"
+                                    fill="#EE6352"></path>
+                                <path
+                                    d="M19.8 16.7C19.8 16.3 19.6 15.9 19.3 15.6C19 15.3 18.6 15.1 18.1 15.1H13.6C12.7 15.1 11.9 15.8 11.9 16.7V42.5C11.9 43.4 12.6 44.1 13.6 44.1H18.1C18.5 44.1 19 43.9 19.3 43.6C19.6 43.3 19.8 42.9 19.8 42.5V16.7Z"
+                                    fill="#F39D56"></path>
+                                <path d="M15.9 17.1L16.5 19H18.5L16.9 20.2L17.5 22.1L15.9 20.9L14.2 22.1L14.9 20.2L13.2 19H15.3L15.9 17.1Z"
+                                    fill="white" stroke="white" stroke-width="0.5" stroke-miterlimit="10" stroke-linejoin="round"></path>
+                                <path
+                                    d="M15.9 23.7L16.5 25.6H18.5L16.9 26.8L17.5 28.7L15.9 27.5L14.2 28.7L14.9 26.8L13.2 25.6H15.3L15.9 23.7Z"
+                                    fill="white" stroke="white" stroke-width="0.5" stroke-miterlimit="10" stroke-linejoin="round"></path>
+                                <path
+                                    d="M15.9 30.3L16.5 32.2H18.5L16.9 33.4L17.5 35.3L15.9 34.1L14.2 35.3L14.9 33.4L13.2 32.2H15.3L15.9 30.3Z"
+                                    fill="white" stroke="white" stroke-width="0.5" stroke-miterlimit="10" stroke-linejoin="round"></path>
+                                <path d="M15.9 36.9L16.5 38.8H18.5L16.9 40L17.5 41.9L15.9 40.7L14.2 41.9L14.9 40L13.2 38.8H15.3L15.9 36.9Z"
+                                    fill="white" stroke="white" stroke-width="0.5" stroke-miterlimit="10" stroke-linejoin="round"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M12.4 10.5C11.7 10.5 11.2 11 11.2 11.7C11.2 12.4 11.8 13 12.4 12.9H45.6C46.3 12.9 46.8 12.4 46.8 11.7C46.8 11 46.2 10.4 45.6 10.5H12.4Z"
+                                    fill="#006A2F"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M33.4 34.8V31.1H36.3V34.8H33.4ZM39.3 34.8V31.1H42.2V34.8H39.3ZM27.5 34.8V31.1H30.4V34.8H27.5ZM33.4 20.6V16.9H36.3V20.6H33.4ZM39.3 20.6V16.9H42.2V20.6H39.3ZM27.5 20.6V16.9H30.4V20.6H27.5ZM33.4 27.7V24H36.3V27.7H33.4ZM39.3 27.7V24H42.2V27.7H39.3ZM27.5 27.7V24H30.4V27.7H27.5Z"
+                                    fill="#008E3F"></path>
+                            </svg></div>
+                    </div>
+                    <div class="service-text">
+                        <h5>Hotel</h5>
+                        <p>Temukan dan pesan hotel dengan mudah.</p>
+                    </div>
+                </div>
+                <hr>
+            </a>
+        </div>
+    </div>
+    <div class="deliveries row d-flex justify-content-around">
+        <h1 class="col-5"></h1>
+        <div class="grup col-5">
+            <a href="#">
+                <div class="service-content d-flex">
+                    <div class="service-icon">
+                    <a href="https://grab.onelink.me/2695613898?pid=website&amp;af_sub5=referral&amp;c=gw_exp_home0_202110&amp;af_r=https%3A%2F%2Fgifts.grab.com%2F%3Futm_campaign%3Dgw_exp_home0_202110%26utm_source%3Dgrab.com%26utm_medium%3Dreferral%26utm_content%3DGrabGifts_SG&amp;deep_link_value=grab%3A%2F%2Fopen%3FscreenType%3DGIFTS&amp;af_dp=grab%3A%2F%2Fopen%3FscreenType%3DGIFTS"
+                        class="service-content___24aB5">
+                        <div class="service-icon___1JsrU"><svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56"
+                                fill="none">
+                                <path
+                                    d="M28 56C43.464 56 56 43.464 56 28C56 12.536 43.464 0 28 0C12.536 0 0 12.536 0 28C0 43.464 12.536 56 28 56Z"
+                                    fill="#CCEFDC"></path>
+                                <path
+                                    d="M28.0001 46.5451C41.2482 46.5451 51.988 45.9547 51.988 45.2264C51.988 44.4982 41.2482 43.9078 28.0001 43.9078C14.7519 43.9078 4.01208 44.4982 4.01208 45.2264C4.01208 45.9547 14.7519 46.5451 28.0001 46.5451Z"
+                                    fill="#99E0B9"></path>
+                                <path
+                                    d="M45.2265 45.4229H12.0081C9.39885 45.4229 7.23853 43.2626 7.23853 40.6534V16.4129C7.23853 13.8037 9.39885 11.6433 12.0081 11.6433H45.2265C47.8638 11.6433 49.996 13.8037 49.996 16.4129V40.6253C49.996 43.2626 47.8357 45.4229 45.2265 45.4229Z"
+                                    fill="#008E3F"></path>
+                                <path
+                                    d="M45.2264 45.4229H15.01C12.3727 45.4229 10.2405 43.2626 10.2405 40.6534V16.4129C10.2405 13.8037 12.3727 11.6433 15.01 11.6433H45.2264C47.8637 11.6433 49.996 13.8037 49.996 16.4129V40.6253C49.996 43.2626 47.8357 45.4229 45.2264 45.4229Z"
+                                    fill="#00B14F"></path>
+                                <path d="M10.2405 21.3227H7.23853V26.3728H10.2405V21.3227Z" fill="#C6A135"></path>
+                                <path d="M49.996 21.3227H10.2405V26.3728H49.996V21.3227Z" fill="#F7C942"></path>
+                                <path d="M21.1665 11.6602L21.1665 45.4117H26.2166V11.6602H21.1665Z" fill="#F7C942"></path>
+                                <path d="M23.455 25.5872L29.6834 36.978L30.7215 33.6955L34.1443 34.5652L27.8878 23.1464L23.455 25.5872Z"
+                                    fill="#FCE9B3"></path>
+                                <path d="M24.016 25.5872L17.7595 36.978L16.7495 33.6955L13.3267 34.5652L19.5551 23.1464L24.016 25.5872Z"
+                                    fill="#FCE9B3"></path>
+                                <path
+                                    d="M13.2705 18.2084V26.7375C13.2705 28.1403 14.7575 29.01 15.992 28.3086L23.539 24.0441C24.7735 23.3427 24.7735 21.5751 23.539 20.8737L15.9639 16.6373C14.7575 15.9639 13.2705 16.8337 13.2705 18.2084Z"
+                                    fill="#FCE9B3"></path>
+                                <path
+                                    d="M34.0881 18.2084V26.7375C34.0881 28.1403 32.6011 29.01 31.3666 28.3086L23.8476 24.0721C22.6131 23.3707 22.6131 21.6032 23.8476 20.9018L31.3947 16.6373C32.5731 15.9639 34.0881 16.8337 34.0881 18.2084Z"
+                                    fill="#FCE9B3"></path>
+                                <path
+                                    d="M34.0881 26.7375C34.0881 26.7375 34.0039 25.5311 32.3486 25.2505C30.6933 24.97 24.1282 24.2125 24.1282 24.2125L31.3667 28.3087C31.3667 28.3087 32.3767 28.9539 33.4709 28.0842C33.4709 28.0842 34.0881 27.6353 34.0881 26.7375Z"
+                                    fill="#C6A135"></path>
+                                <path
+                                    d="M13.2705 26.7375C13.2705 26.7375 13.3547 25.5311 15.01 25.2505C16.6653 24.97 23.2304 24.2125 23.2304 24.2125L15.9639 28.3367C15.9639 28.3367 14.9539 28.982 13.8597 28.1123C13.8597 28.0842 13.2705 27.6353 13.2705 26.7375Z"
+                                    fill="#C6A135"></path>
+                                <path
+                                    d="M25.4749 26.1202H21.9959C21.2104 26.1202 20.5931 25.503 20.5931 24.7174V20.2565C20.5931 19.4709 21.2104 18.8537 21.9959 18.8537H25.4749C26.2605 18.8537 26.8777 19.4709 26.8777 20.2565V24.7174C26.8777 25.4749 26.2324 26.1202 25.4749 26.1202Z"
+                                    fill="#FDF4D9"></path>
+                                <path
+                                    d="M34.4809 42.3928H47.022C47.5551 42.3928 47.9759 41.9719 47.9759 41.4389C47.9759 40.9058 47.5551 40.485 47.022 40.485H34.4809C33.9478 40.485 33.527 40.9058 33.527 41.4389C33.4989 41.9439 33.9478 42.3928 34.4809 42.3928Z"
+                                    fill="#008E3F"></path>
+                                <path
+                                    d="M40.3447 38.493H46.994C47.527 38.493 47.9479 38.0722 47.9479 37.5391C47.9479 37.006 47.527 36.5852 46.994 36.5852H40.3447C39.8116 36.5852 39.3907 37.006 39.3907 37.5391C39.3907 38.0722 39.8396 38.493 40.3447 38.493Z"
+                                    fill="#008E3F"></path>
+                            </svg></div>
+                    </div>
+                    <div class="service-text">
+                        <h5>Kartu hadiah</h5>
+                        <p>Kirim kartu hadiah dengan praktis untuk seseorang.</p>
+                    </div>
+                </div>
+                <hr>
+            </a>
+        </div>
+    </div>
+    <div class="deliveries row d-flex justify-content-around">
+        <h1 class="col-5"></h1>
+        <div class="grup col-5">
+            <a href="#">
+                <div class="service-content d-flex">
+                    <div class="service-icon">
+                    <a href="https://www.grab.com/id/rewards/" class="service-content___24aB5">
+                        <div class="service-icon___1JsrU"><svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56"
+                                fill="none">
+                                <path
+                                    d="M28 56C43.464 56 56 43.464 56 28C56 12.536 43.464 0 28 0C12.536 0 0 12.536 0 28C0 43.464 12.536 56 28 56Z"
+                                    fill="#CCEFDC"></path>
+                                <path
+                                    d="M28 46.6C39.0457 46.6 48 46.018 48 45.3C48 44.582 39.0457 44 28 44C16.9543 44 8 44.582 8 45.3C8 46.018 16.9543 46.6 28 46.6Z"
+                                    fill="#99E0B9"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M30.8 11.6L32.6 22.3L38.6 18C38.9 17.8 39.3 17.9 39.5 18.2C39.6 18.3 39.6 18.4 39.6 18.5L41 34.2L13.6 29.6L20.2 15.3C20.4 15 20.7 14.8 21.1 15C21.2 15 21.3 15.1 21.4 15.2L25.5 21.1L30.8 11.6Z"
+                                    fill="#EE6352"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M21.7 24.9L30.4 9.60001C30.6 9.30001 31 9.20001 31.3 9.40001C31.5 9.50001 31.6 9.70001 31.6 9.90001L34.8 27.2L46.6 19.5C46.9 19.3 47.3 19.4 47.5 19.7C47.6 19.9 47.6 20.1 47.6 20.3L38.2 45.5C29.5 47.6 20.1 46 12.5 41L12 14.1C12 13.7 12.3 13.4 12.6 13.4C12.8 13.4 13 13.5 13.1 13.7L21.7 24.9Z"
+                                    fill="#F38522"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M21.3 33.5L28.1 27.5V27.6L26.9 34.5L21.3 33.5Z"
+                                    fill="#F39D56"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M26.9 34.5L25.7 41.4L21.3 33.5L26.9 34.5Z" fill="#EE6352">
+                                </path>
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M47.6 19.6C47.4 19.3 47 19.2 46.7 19.4L34.9 27.2L31.7 9.79999C31.7 9.59999 31.6 9.49999 31.4 9.39999C31.4 9.39999 31.3 9.39999 31.2 9.29999L25 45.9C28.6 46.5 32.3 46.5 35.9 45.8C36.6 45.7 37.2 45.5 37.7 45.4C37.9 45.4 38.1 45.3 38.3 45.3L47.7 20.1C47.7 20 47.7 19.7 47.6 19.6Z"
+                                    fill="#FDF4D9"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M28.1 27.6L32.5 35.4L26.9 34.5L28.1 27.6Z" fill="white">
+                                </path>
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M32.5 35.4L32.6 35.5L25.8 41.5L25.7 41.4L26.9 34.5L32.5 35.4Z" fill="#FADF8E"></path>
+                            </svg></div>
+                    </div>
+                    <div class="service-text">
+                        <h5>Hadiah</h5>
+                        <p>Dapatkan poin dan manfaatnya untuk setiap transaksi.</p>
+                    </div>
+                </div>
+                <hr>
+            </a>
+        </div>
+    </div>
+    <div class="deliveries row d-flex justify-content-around">
+        <h1 class="col-5"></h1>
+        <div class="grup col-5">
+            <a href="#">
+                <div class="service-content d-flex">
+                    <div class="service-icon">
+                    <div class="service-icon___1JsrU"><svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72"
+                            fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M35.9991 0C16.1181 0 0 16.1181 0 35.9991C0 55.8801 16.1181 71.9982 35.9991 71.9982C55.8801 71.9982 71.9982 55.8819 71.9982 35.9991C71.9982 16.1163 55.8837 0 35.9991 0Z"
+                                fill="#CCEFDC"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M27.6175 11.4435V20.6541C20.0937 24.2889 14.9054 31.2145 14.9054 39.1618C14.9054 43.8203 16.6877 48.1274 19.6792 51.6271C13.4385 47.794 9.29541 41.0396 9.29541 33.3464C9.29541 22.7211 17.1995 13.3735 27.6175 11.4417V11.4435Z"
+                                fill="#00B14F"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M43.2562 61.3694V52.1588C50.78 48.5239 55.9683 41.5984 55.9683 33.651C55.9683 28.9926 54.186 24.6855 51.1945 21.1858C57.4353 25.0189 61.5783 31.7732 61.5783 39.4665C61.5783 50.0918 53.6742 59.4393 43.2544 61.3712L43.2562 61.3694Z"
+                                fill="#00B14F"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M43.2563 54.7465V61.3675C49.9044 60.1349 55.5162 55.8747 58.7167 50.198C53.0238 54.7357 45.9397 54.8817 43.2563 54.7447V54.7465Z"
+                                fill="#008E3F"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M26.1597 4.38086L40.3117 17.2336L26.1597 30.0881V4.38086Z"
+                                fill="#008E3F"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M45.4442 46.2243C38.971 52.6993 30.2163 54.4401 25.893 50.115L21.3535 45.5755L44.7955 22.1335L49.335 26.6731C53.6601 30.9964 51.9192 39.7492 45.446 46.2243"
+                                fill="#C7712D"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M40.8829 41.6632C34.4097 48.1364 25.655 49.8773 21.3318 45.5522C17.0067 41.2271 18.7475 32.4742 25.2207 26.001C31.6939 19.5278 40.4468 17.7869 44.7719 22.112C49.097 26.4353 47.3561 35.19 40.8829 41.6632Z"
+                                fill="#F9D468"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M27.2032 39.4881C26.2967 38.4609 25.6642 37.2337 25.2983 35.8064L27.1761 31.6633L28.3079 32.7932C28.4629 33.6637 28.7206 34.5161 29.081 35.354C29.4432 36.192 29.8505 36.8408 30.3046 37.2949C30.6795 37.668 31.0147 37.8806 31.3138 37.9311C31.6112 37.9815 31.9067 37.8608 32.1968 37.5707C32.3951 37.3724 32.5014 37.1417 32.5158 36.8768C32.5284 36.6101 32.4762 36.2443 32.3572 35.7757C32.2401 35.3072 32.0563 34.6999 31.8058 33.9538C31.5301 33.1086 31.3949 32.3391 31.4057 31.6417C31.4129 30.9443 31.5589 30.2973 31.84 29.7026C32.123 29.1079 32.5915 28.4844 33.2421 27.8302C34.2404 26.8336 35.255 26.2876 36.284 26.1939C37.3149 26.0984 38.3637 26.4516 39.4323 27.2553L40.674 26.0137L42.3428 27.7221L41.1209 28.9457C41.9319 29.89 42.5194 31.0722 42.8852 32.4887L39.5134 34.2854L38.0844 32.8167C38.0844 32.8167 38.1582 31.1857 37.5744 30.6001C37.2211 30.2468 37.2121 30.3964 36.9526 30.3694C36.6895 30.346 36.4462 30.4451 36.2156 30.6757C36.0155 30.8758 35.902 31.092 35.8786 31.3245C35.8515 31.5588 35.8858 31.8832 35.9795 32.2995C36.0768 32.7157 36.2444 33.2582 36.4859 33.9232C36.9616 35.291 37.1148 36.4641 36.9454 37.4355C36.7742 38.4086 36.239 39.3439 35.3397 40.2468C34.3233 41.2632 33.2637 41.8525 32.159 42.0147C31.0543 42.1805 29.9748 41.8885 28.926 41.1388L27.1761 42.8887L25.5056 41.1821L27.2014 39.4863L27.2032 39.4881Z"
+                                fill="#C7712D"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M26.0713 38.3564C25.1631 37.3292 24.5305 36.1019 24.1665 34.6746L27.1778 31.6615C27.331 32.5319 27.5905 33.3843 27.951 34.2223C28.3132 35.0603 28.7223 35.7091 29.1746 36.1632C29.5494 36.5362 29.8846 36.7489 30.1838 36.7993C30.4811 36.8498 30.7767 36.729 31.0668 36.4389C31.265 36.2407 31.3714 36.0082 31.3858 35.7451C31.3984 35.4784 31.3479 35.1126 31.2272 34.644C31.1119 34.1755 30.9244 33.5681 30.6758 32.8221C30.4 31.9769 30.2649 31.2074 30.2757 30.5099C30.2829 29.8125 30.4289 29.1656 30.71 28.5709C30.9929 27.9762 31.4597 27.3526 32.112 26.6985C33.1104 25.7019 34.1232 25.1559 35.154 25.0621C36.1848 24.9666 37.2337 25.3198 38.3023 26.1236L39.544 24.8801L40.9136 26.2515L39.6917 27.4752C40.5027 28.4195 41.0902 29.6017 41.456 31.0181L38.0843 32.8149C37.731 31.3245 37.185 30.209 36.4425 29.4683C36.0893 29.1151 35.7812 28.9259 35.5216 28.9007C35.2585 28.8772 35.0134 28.9763 34.7846 29.207C34.5845 29.4052 34.4692 29.6233 34.4458 29.8558C34.4187 30.09 34.4548 30.4144 34.5485 30.8289C34.644 31.247 34.8134 31.7876 35.0549 32.4544C35.5289 33.8222 35.6838 34.9954 35.5144 35.9668C35.3432 36.9399 34.808 37.8752 33.9088 38.7781C32.8924 39.7945 31.8309 40.3837 30.728 40.5459C29.6233 40.7117 28.5438 40.4198 27.495 39.6701L25.7434 41.42L24.3737 40.0522L26.0695 38.3564H26.0713Z"
+                                fill="white"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M44.7126 68.4301L30.5605 55.5774L44.7126 42.7229V68.4301Z"
+                                fill="#00B14F"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M27.6176 18.0643V11.4434C20.9696 12.676 15.3578 16.9362 12.1572 22.6129C17.8501 18.0752 24.9342 17.9292 27.6176 18.0661V18.0643Z"
+                                fill="#008E3F"></path>
+                        </svg></div>
+                    </div>
+                    <div class="service-text">
+                        <h5>Paket Langganan</h5>
+                        <p>Makin hemat untuk layanan Grab favorit Anda.</p>
+                    </div>
+                </div>
+                <hr>
+            </a>
+        </div>
+    </div>
+    <div class="deliveries row d-flex justify-content-around">
+        <h1 class="col-5"></h1>
+        <div class="grup col-5">
+            <a href="#">
+                <div class="service-content d-flex">
+                    <div class="service-icon">
+                            <div class="service-icon___1JsrU"><svg xmlns="http://www.w3.org/2000/svg" width="73" height="72" viewBox="0 0 73 72"
+                                    fill="none">
+                                    <g clip-path="url(#clip0_309_1452)">
+                                        <path
+                                            d="M35.809 0C15.9869 0 0 16.0722 0 36C0 55.9278 15.9869 72 35.809 72C55.6311 72 71.618 55.9278 71.618 36C71.618 26.4852 67.91 17.3574 61.1314 10.5426C54.3527 3.7278 45.2733 0 35.809 0Z"
+                                            fill="#CCEFDC"></path>
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M20.2068 36.1277H10.2304C6.52241 36.1277 2.30053 39.7277 0.766113 43.4555C3.96386 58.6277 16.753 70.3277 32.4822 71.7407V70.5833L20.2068 38.4425V36.1277Z"
+                                            fill="white"></path>
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M35.8089 72C41.4363 72 46.6787 70.7148 51.4109 68.4L46.4227 45.2574C45.2714 39.9852 40.6682 36.1296 35.1679 36.1296H31.9702V38.7018L26.3428 70.7166C29.2845 71.4888 32.4822 72.0018 35.8071 72.0018L35.8089 72Z"
+                                            fill="white"></path>
+                                        <path
+                                            d="M38.6219 53.3573H38.3658C37.9827 53.2295 37.8538 52.8425 37.9827 52.5851C38.6219 50.9129 39.005 49.2425 38.8779 47.4425C38.8779 43.8425 37.5995 40.4999 35.041 37.9277C32.6113 35.3555 29.1575 33.9425 25.7056 33.9425C20.9734 33.9425 16.4973 36.6425 14.1947 40.7573C14.0676 41.0147 13.6827 41.1425 13.2995 41.0147C13.0435 40.8869 12.9164 40.4999 13.0435 40.1147C15.602 35.4869 20.4613 32.6573 25.7038 32.5295C29.6678 32.5295 33.2487 34.0721 35.9344 36.9017C38.6201 39.7295 40.1545 43.3295 40.1545 47.3165C40.1545 49.2443 39.7713 51.0443 39.1321 52.8443C39.1321 53.2295 38.8761 53.3591 38.6201 53.3591L38.6219 53.3573Z"
+                                            fill="#4DC884"></path>
+                                        <path
+                                            d="M37.5996 57.2147C39.0126 57.2147 40.1581 56.0631 40.1581 54.6425C40.1581 53.2219 39.0126 52.0703 37.5996 52.0703C36.1865 52.0703 35.041 53.2219 35.041 54.6425C35.041 56.0631 36.1865 57.2147 37.5996 57.2147Z"
+                                            fill="#006A2F"></path>
+                                        <path
+                                            d="M39.1338 58.1148C40.8286 58.1148 42.2026 56.5603 42.2026 54.6426C42.2026 52.725 40.8286 51.1704 39.1338 51.1704C37.4389 51.1704 36.0649 52.725 36.0649 54.6426C36.0649 56.5603 37.4389 58.1148 39.1338 58.1148Z"
+                                            fill="#00B14F"></path>
+                                        <path
+                                            d="M14.1965 59.6574C13.9405 59.6574 13.5573 59.6574 13.0452 59.4C11.3819 58.5 9.97639 55.8 8.82513 51.4278C7.80279 47.313 8.05703 44.1 9.59324 42.0426C11.2566 39.8574 13.5573 39.7278 13.6862 39.7278C14.0694 39.7278 14.3254 39.9852 14.3254 40.3704C14.3254 40.7556 14.0694 41.013 13.6862 41.013C13.5591 41.013 11.7686 41.1408 10.6174 42.813C9.33899 44.613 9.08296 47.313 9.97819 51.0408C11.2566 56.313 12.791 57.726 13.5591 58.113C13.9422 58.2408 14.1983 58.2408 14.1983 58.2408C14.5814 58.113 14.8375 58.2408 15.0935 58.626C15.2206 59.0112 15.0935 59.2686 14.7103 59.526C14.7103 59.6538 14.5832 59.6538 14.1983 59.6538L14.1965 59.6574Z"
+                                            fill="#4DC884"></path>
+                                        <path
+                                            d="M18.2878 59.1425C18.2031 59.1425 18.2031 59.1425 18.2878 59.1425C17.7758 59.1425 17.5197 58.7573 17.6487 58.4999C17.6487 58.1147 18.0318 57.8573 18.2878 57.8573C18.2878 57.8573 18.5439 57.8573 18.927 57.4721C19.5662 56.8295 20.4615 55.0295 20.3343 49.6295C20.2072 45.7721 19.1831 43.2017 17.5215 41.9147C15.8582 40.6295 14.0678 41.0147 14.0678 41.0147C13.6846 41.1425 13.4286 40.8869 13.2996 40.4999C13.1725 40.1147 13.4268 39.8573 13.8117 39.7277C13.9388 39.7277 16.2414 39.2129 18.2878 40.7555C20.3343 42.2981 21.4856 45.2555 21.6127 49.4981C21.7398 53.9981 21.2296 57.0833 19.8223 58.3703C19.0542 59.1425 18.415 59.1425 18.2878 59.1425Z"
+                                            fill="#4DC884"></path>
+                                        <path
+                                            d="M17.9044 60.1705C18.6104 60.1705 19.1827 59.5951 19.1827 58.8853C19.1827 58.1755 18.6104 57.6001 17.9044 57.6001C17.1983 57.6001 16.626 58.1755 16.626 58.8853C16.626 59.5951 17.1983 60.1705 17.9044 60.1705Z"
+                                            fill="#006A2F"></path>
+                                        <path
+                                            d="M15.3458 60.4278C16.0518 60.4278 16.6241 59.8524 16.6241 59.1426C16.6241 58.4328 16.0518 57.8574 15.3458 57.8574C14.6397 57.8574 14.0674 58.4328 14.0674 59.1426C14.0674 59.8524 14.6397 60.4278 15.3458 60.4278Z"
+                                            fill="#006A2F"></path>
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M28.3912 25.5853H20.207V38.5723L23.403 45.2575H28.2641H29.5424H30.5648L31.9721 38.8279V25.3279L28.3912 25.5853Z"
+                                            fill="#F39D56"></path>
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M20.9731 18.9V27.7722C20.9731 28.4148 21.2292 28.9296 21.6123 29.4444L25.5764 33.5592C26.0885 34.074 26.7277 34.3314 27.494 34.3314H32.4822C32.8653 34.3314 33.3774 34.074 33.6334 33.8166L36.8312 29.574C37.2143 29.0592 37.3432 28.5462 37.3432 27.9018V14.2722H25.5782C24.4269 14.2722 23.2757 14.6574 22.3804 15.5574C21.4852 16.4574 21.1021 17.6148 20.9731 18.9Z"
+                                            fill="#F39D56"></path>
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M35.9364 26.3573L33.2507 21.3425V18.7703C33.2507 17.9981 33.1236 17.2277 32.7386 16.4555L32.6115 16.0703C28.7746 16.7129 24.0424 17.2277 23.5321 17.2277V21.0851H21.7417C21.6146 20.6999 21.3585 20.1851 21.1025 19.7999C20.8465 19.4147 20.3344 19.1573 19.9512 19.1573C19.1831 19.1573 18.6729 19.6721 18.6729 20.4425V24.2999C18.6729 24.6851 18.8 24.9425 19.056 25.1999C19.312 25.4573 19.5681 25.5851 19.9512 25.5851H21.1025V27.6425C21.1025 28.2851 21.3585 28.7999 21.7417 29.3147L25.8347 33.4295C26.3467 33.9443 26.9859 34.2017 27.7522 34.2017H31.8452C32.6133 34.2017 33.2525 33.5591 33.2525 32.7869V27.3869H35.4261C35.6821 27.3869 35.8093 27.2591 35.9382 27.0017C36.0653 26.7443 36.0653 26.6165 35.9382 26.3591L35.9364 26.3573Z"
+                                            fill="#FDF4D9"></path>
+                                        <path
+                                            d="M39.2626 10.8C38.7505 8.61476 32.8689 8.22776 28.0078 8.99996C26.0902 9.38516 24.1709 9.89996 22.2533 10.6722C20.7189 11.3148 18.7995 11.7 17.7772 13.1148C17.6501 13.2426 16.7548 15.1722 16.882 15.1722V24.4296C16.882 25.2018 17.138 25.9722 17.7772 26.487L20.2068 28.1592V25.587H19.8237C19.4405 25.587 19.1845 25.4592 18.9284 25.2018C18.6724 24.9444 18.5453 24.687 18.5453 24.3018V20.4444C18.5453 19.6722 19.0574 19.1592 19.8237 19.1592C20.3357 19.1592 20.7189 19.4166 20.9749 19.8018C21.231 20.187 21.487 20.574 21.6141 21.087H23.4046V17.2296H24.1727C26.8583 16.9722 35.6835 15.8148 37.345 15.0444C39.3915 14.1444 39.7747 12.987 39.2626 10.8018V10.8Z"
+                                            fill="#4B4B4B"></path>
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M27.2399 41.7852H23.9151L23.2759 46.4148L28.2641 59.6574L30.9498 44.1L30.6937 41.7852H27.2399Z"
+                                            fill="#006A2F"></path>
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M20.207 36.1277L27.2399 41.7851L23.7879 47.8277L20.207 38.4425V36.1277Z" fill="#CCEFDC"></path>
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M31.9719 36.1277L27.2397 41.7851L30.4375 47.4425L31.9719 38.6999V36.1277Z" fill="#CCEFDC"></path>
+                                        <path
+                                            d="M72.8967 32.5277C73.0238 28.0277 69.5718 24.2999 65.0957 24.0425C62.2829 24.0425 59.7243 25.5851 58.4459 28.0277C57.1675 25.5851 54.609 24.0425 51.7962 24.0425C47.3201 24.1703 43.8663 28.0277 43.9952 32.5277C43.9952 34.9703 44.8904 37.2851 46.6809 38.9555L57.8067 50.9129C57.9339 51.1703 58.1899 51.2981 58.5748 51.2981C58.9598 51.2981 59.0869 51.1703 59.3429 50.9129L70.4688 38.9555C72.0032 37.2833 72.8984 34.9703 72.8984 32.5277H72.8967Z"
+                                            fill="#EE6352"></path>
+                                        <path
+                                            d="M64.329 35.6148H60.3632V31.5H56.3991V35.6148H52.3062V39.6H56.3991V43.7148H60.3632V39.6H64.329V35.6148Z"
+                                            fill="white"></path>
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_309_1452">
+                                            <rect width="72.9" height="72" fill="white"></rect>
+                                        </clipPath>
+                                    </defs>
+                                </svg></div>
+                    </div>
+                    <div class="service-text">
+                        <h5>Kesehatan</h5>
+                        <p>Konsultasi langsung dengan dokter resmi secara gratis.</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+<hr>
+    <div class="vertical-btn">
+        <span class="callout1">Show Less Services <img loading="lazy"
+                src="https://assets.grab.com/wp-content/uploads/media/grab21/icons/minus.svg"></span>
+    </div>
+<hr>
+</div>
+<!-- section 3 -->
+<div class="section3">
+    <div class="newsroom">
+        <h3>Newsroom</h3>
+    </div>
+    <div class="container-card d-flex justify-content-between">
+        <div class="card-news">
+            <div class="news-image">
+            </div>
+                <div class="news-date">15/07/22</div>
+                <div class="news-title">Gandeng Pemerintah, Grab Resmikan Tampilan Baru Kendaraan Listriknya,
+                    Kini Bernama GrabElectric</div>
+                <div class="news-readmore">Read More</div>
+        </div>
+        
+        <div class="card-news">
+            <div class="news-image"></div>
+                <div class="news-date">13/07/22</div>
+                <div class="news-title">Grab Target Digitalisasi 4,600 UMKM Pasar Tradisional Tahun Ini</div>
+                <div class="news-readmore">Read More</div>
+        </div>
+        <div class="card-news">
+            <div class="news-image"></div>
+                <div class="news-date">21/06/22</div>
+                <div class="news-title">Menyongsong Tantangan Pasca Pandemi, Grab Ventures Velocity Batch 5 x
+                    Sembrani Wira Siapkan Startup Indonesia Jadi Lebih Tangguh</div>
+                <div class="news-readmore">Read More</div>
+        </div>
+        <div class="card-news">
+            <div class="news-image"></div>
+                <div class="news-date">21/06/22</div>
+                <div class="news-title">WonderBrew: Sensasi Kopi Cold Brew Baru, Kini Hadir Eksklusif di
+                GrabKitchen dan YummyKitchen</div>
+                <div class="news-readmore">Read More</div>
+        </div>
+    </div>
+    <div class="newsroom-more-outter">
+        <a class="newsroom-more" href="https://www.grab.com/id/press">More News Releases</a>
+    </div>
+</div>
+
+<!-- bagian footer -->
+<footer class="row">
+    <!-- bagian 1 -->
+    <div class="bagian1 col-4">
+        <img src="./grab.png" alt="grab">
+
+        <div class="slogan">Forward Together</div>
+
+        <div class="social-media">
+            <div>Follow us and keep updated!</div>
+            <div class="img-social mt-4">
+                <span><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 30 30"
+                    style=" fill:#1A1A1A;">
+                    <path
+                        d="M15,3C8.373,3,3,8.373,3,15c0,6.016,4.432,10.984,10.206,11.852V18.18h-2.969v-3.154h2.969v-2.099c0-3.475,1.693-5,4.581-5 c1.383,0,2.115,0.103,2.461,0.149v2.753h-1.97c-1.226,0-1.654,1.163-1.654,2.473v1.724h3.593L19.73,18.18h-3.106v8.697 C22.481,26.083,27,21.075,27,15C27,8.373,21.627,3,15,3z">
+                    </path>
+                </svg></span>
+                <span><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 30 30"
+                    style=" fill:#1A1A1A;">
+                    <path
+                        d="M 15 2 C 7.832 2 2 7.832 2 15 C 2 22.168 7.832 28 15 28 C 22.168 28 28 22.168 28 15 C 28 7.832 22.168 2 15 2 z M 11.666016 6 L 18.332031 6 C 21.457031 6 24 8.5420156 24 11.666016 L 24 18.332031 C 24 21.457031 21.457984 24 18.333984 24 L 11.667969 24 C 8.5429688 24 6 21.457984 6 18.333984 L 6 11.667969 C 6 8.5429688 8.5420156 6 11.666016 6 z M 11.666016 8 C 9.6450156 8 8 9.6459688 8 11.667969 L 8 18.333984 C 8 20.354984 9.6459688 22 11.667969 22 L 18.333984 22 C 20.354984 22 22 20.354031 22 18.332031 L 22 11.666016 C 22 9.6450156 20.354031 8 18.332031 8 L 11.666016 8 z M 19.667969 9.6660156 C 20.035969 9.6660156 20.333984 9.9640312 20.333984 10.332031 C 20.333984 10.700031 20.035969 11 19.667969 11 C 19.299969 11 19 10.700031 19 10.332031 C 19 9.9640312 19.299969 9.6660156 19.667969 9.6660156 z M 15 10 C 17.757 10 20 12.243 20 15 C 20 17.757 17.757 20 15 20 C 12.243 20 10 17.757 10 15 C 10 12.243 12.243 10 15 10 z M 15 12 A 3 3 0 0 0 15 18 A 3 3 0 0 0 15 12 z">
+                    </path>
+                </svg></span>
+                <span><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40" viewBox="0 0 50 50"
+                    style=" fill:#1A1A1A;">
+                    <path
+                        d="M25,8c9.374,0,17,7.626,17,17s-7.626,17-17,17S8,34.374,8,25S15.626,8,25,8z M34.116,21.562	c0.816-0.589,1.523-1.323,2.082-2.159c-1.138,0.517-2.396,0.657-2.396,0.657s1.47-0.85,1.834-2.308	c-0.805,0.478-1.698,0.825-2.649,1.013c-0.761-0.811-1.845-1.318-3.044-1.318c-2.304,0-4.171,1.868-4.171,4.171	c0,0.327,0.108,0.95,0.108,0.95s-5.034,0.03-8.598-4.359c0,0-0.548,0.734-0.564,2.098c-0.026,2.313,1.855,3.471,1.855,3.471	s-0.946,0.025-1.889-0.522c0.085,3.582,3.346,4.142,3.346,4.142s-1.053,0.202-1.884,0.072c0.531,1.657,2.071,2.864,3.896,2.897	c-1.427,1.119-3.226,1.786-5.18,1.786c-0.336,0-0.669-0.02-0.995-0.059c0.968,1.049,4.038,1.874,6.394,1.874	c7.673,0,11.867-6.356,11.867-11.868C34.128,21.921,34.124,21.741,34.116,21.562z">
+                    </path>
+                </svg></span>
+            </div>
+        </div>
+        <div class="dropdown-social">
+            <div class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                Indonesia
+            </div>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Singapore</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Malaysia</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Indonesia</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Thailand</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Vietnam</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Philippines</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Myanmar</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Cambodia</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- bagian 2 -->
+    <div class="bagian2 col d-flex">
+        <div class="col-2 ">
+            <ul>
+                <div class="col-heading">Tentang Grab</div>
+                <li><a href="">Cerita Grab</a></li>
+                <li><a href="">Hubungan Investor</a></li>
+                <li><a href="">Lokasi</a></li>
+                <li><a href="">Tanggung jawab & Keselamatan</a></li>
+                <li><a href="">Dampak Positif</a></li>
+                <li><a href="">Ruang Berita</a></li>
+                <li><a href="">Karir</a></li>
+            </ul>
+        </div>
+        <div class="col-2 ">
+            <ul>
+                <div class="col-heading">Pengguna</div>                
+                <li><a href="">Yang Terbaru</a></li>
+                <li><a href="">Transportasi</a></li>
+                <li><a href="">GrabFood</a></li>
+                <li><a href="">GrabMart</a></li>
+                <li><a href="">GrabExpress</a></li>
+                <li><a href="">Pembayaran Grab</a></li>
+                <li><a href="">Grab Rewards</a></li>
+                <li><a href="">Groceries</a></li>
+                <li><a href="">Paket Hemat</a></li>
+                <li><a href="">GrabKios</a></li>
+                <li><a href="">GrabGifts</a></li>
+                <li><a href="">Entertainment</a></li>
+            </ul>
+        </div>
+        <div class="col-2 ">
+            <ul>
+                <div class="col-heading">Pengemudi</div>               
+                <li><a href="">Yang Terbaru</a></li>
+                <li><a href="">Transportasi</a></li>
+                <li><a href="">GrabFood</a></li>
+                <li><a href="">GrabExpress</a></li>
+                <li><a href="">Pusat Pengemudi</a></li>
+                <li><a href="">Kode Etik</a></li>
+            </ul>
+        </div>
+        <div class="col-2 ">
+            <ul>
+                <div class="col-heading">Mitra Penjual</div>               
+                <li><a href="">GrabFood</a></li>
+                <li><a href="">GrabKios</a></li>
+                <li><a href="">GrabMart</a></li>
+            </ul>
+        </div>
+        <div class="col-2 ">
+            <ul>
+                <div class="col-heading">Perusahaan</div>             
+                <li><a href="">Grab for Business</a></li>
+                <li><a href="">GrabAds</a></li>
+                <li><a href="">GrabGifts</a></li>
+                <li><a href="">GrabExpress</a></li>
+                <li><a href="">Layanan Pengantar untuk Bisnis</a></li>
+            </ul>
+        </div>
+        <div class="col-2 ">
+            <ul>
+                <div class="col-heading">Tautan langsung</div>
+                <li><a href="">Pusat Bantuan</a></li>
+                <li><a href="">Menu Makanan</a></li>
+                <li><a href="">Informasi Covid-19</a></li>
+                <li><a href="">Layanan Pengaduan GrabMart</a></li>
+                <li><a href="">Developer Portal</a></li>
+                <li><a href="">Karir</a></li>
+            </ul>
+        </div>
+
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
